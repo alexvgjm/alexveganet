@@ -1,0 +1,128 @@
+
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+  <channel>
+    <atom:link href="https://alexvega.net/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Alex Vega - Formación y consultoría</title>
+    <link>https://alexvega.net</link>
+    <description>Formación y consultoría especializada en desarrollo ágil. Web, sistemas de información e ingeniería de software.</description>
+    <image>
+      <url>https://alexvega.net/favicon.png</url>
+      <title>Alex Vega - Formación y consultoría</title>
+      <link>https://alexvega.net</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    
+    
+          <item>
+            <guid>https://alexvega.net/blog/por-que-un-blog-en-2024</guid>
+            <title>Por qué un blog en 2024</title>
+            <description>Esta es la primera entrada de un un blog en el que controlo todo su proceso generativo y contenido. Es un blog estático creado con SvelteKit. Aquí cuento mis motivos y las ventajas de este formato en la actualidad.</description>
+            <link>https://alexvega.net/por-que-un-blog-en-2024</link>
+            <pubDate>Lun, 24 Jun 2024 15:06:23 +0000</pubDate>
+            <category>Personal</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/por-que-un-blog-en-2024">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              <div class="info-box svelte-176xaq3"> En este artículo hablo de 
+blogs de carácter <strong data-svelte-h="svelte-1kfgueg">personal</strong>, no de blogs corporativos,
+institucionales, etc. Esos tienen otras razones para seguir
+siendo útiles. </div> <p>Esta es la primera entrada de un blog en el que
+controlo todo su proceso generativo y contenido.
+Detalles técnicos <span class="no-wrap svelte-49cqox"><a href="#detalles-tecnicos" data-svelte-h="svelte-alaku3">👇 al final.</a></span></p> <p data-svelte-h="svelte-gel1sl">Estoy cansado de leer sobre la importancia de dejar por escrito tu oficio o
+pensamientos aunque nadie te lea. No le veía sentido práctico y no sentía que
+me ayudara, pero recientemente le he visto dos utilidades.</p> <p data-svelte-h="svelte-14h9b1d">La primera, tener un espacio donde compartir lo que suelo repetir con cada
+alumno. Así puedo dejar directamente comentarios, recomendaciones, patrones,
+etc., limitándome a mandarles el enlace y no robándoles tiempo en clase.</p> <p data-svelte-h="svelte-w90q66">La segunda, más personal y clásica de un blog, es dejar algún rastro de mi
+evolución. Muchas veces he
+intentado recordar sin éxito qué pensaba o qué razones tenía en el pasado para
+decir o hacer determinadas cosas, como apoyar ciertas corrientes o tecnologías.
+Saber cómo era ayuda a la introspección, a asimiliar y ajustar cambios.</p> <h2 data-svelte-h="svelte-1dd0thw">Ventajas de un blog personal en la actualidad</h2> <p data-svelte-h="svelte-10c8ry6">Todos conocemos por qué este formato ha muerto. Un blog personal no genera
+dopamina, no está en medio de todo ni te da
+seguidores <small>(o no tantos)</small>. De hecho requiere un esfuerzo para
+mejorar su visibilidad si necesitaras que otros pasen por él. Todo esto puede
+considerarse ventajas si lo vemos como un pequeño refugio.</p> <p data-svelte-h="svelte-18rmamq">Otra ventaja que surge de la adversidad solo por un cambio de enfoque
+es que hay menos posibilidades de negocio, lo que provoca que un blog personal
+se reduzca por necesidad a su esencia. Actualmente todo internet está saturado
+de contenido basura y autogenerado bien posicionado por magufidades del SEO, por
+lo que la dificultad de posicionar algo aumenta tanto que me disuade y aleja
+de esas ideas de pseudoéxito capitalista.</p> <p data-svelte-h="svelte-1u3loif">Al renunciar al posicionamiento, a las visitas e incluso a los comentarios,
+escribir un blog se convierte en una experiencia más personal y limpia. Y lo
+mejor es que me permite realizar aquellas acciones tradicionalmente
+superdestructivas y dañinas para el posicionamiento en un sitio normal,
+como borrar entradas.</p> <p data-svelte-h="svelte-gfynom">Ya desde el primer párrafo que escribes puedes notar algo de no
+estar pululando cerca de una red social: se acabó el que secuestren tu atención,
+el destruir tu productividad con spam de vídeos de gatitos y Milei dando cringe.</p> <p data-svelte-h="svelte-1owvlqx">Pero lo mejor de todo es que en este formato tienes el control de tu contenido,
+no hay un servicio que te diga qué puedes o no publicar. Incluso con servicios
+de alojamiento con restricción de contenido o posibilidad de cambiar sus
+políticas, siempre podrás llevártelo a otro lado. Hoy día, tener el control
+sobre tu contenido es un privilegio.</p> <h2 data-svelte-h="svelte-5qf7jp">Por qué no tengo una sección de comentarios</h2> <p data-svelte-h="svelte-1xwjm58">Quitando que es un rollo integrar un sistema de comentarios dinámicos externo
+en un sitio estático, cabe aclarar que los comentarios no tienen nada de malo,
+de hecho tienen más pros que contras, pero para mi caso particular pesan más
+los contras. Mi idea es <strong>eliminar la interacción social</strong> en este espacio (más
+sobre esto en una futura entrada).</p> <p data-svelte-h="svelte-1obppyr">Entre las razones más evidentes para no incluirlos está evitarme
+todo tipo de spam, trolls e incluso comentarios positivos, que solo son alimento
+para el ego. No necesito que quede constancia de si a alguien le gusta o no lo
+que he escrito, aunque con ello se pierda las utilidades más importantes de los
+comentarios: la obtención de feedback constructivo, correcciones y sugerencias.</p> <p data-svelte-h="svelte-1e7wgil">A ver, existe el correo electrónico, pero nadie lo usa
+salvo que no haya más remedio. Es una vía más directa
+pero con algunas desventajas, como la posibilidad de que el correo nunca llegue
+y ni lo sepas.</p> <p data-svelte-h="svelte-lv4okb">La razón de peso más típica para incluir comentarios suele estar relacionada con
+el SEO. Los comentarios cuentan como nuevo
+contenido y pueden atraer visitas por sí mismos. Todo eso me da igual, no busco
+visibilidad ni posicionamiento con este blog.</p> <h2 id="detalles-tecnicos" data-svelte-h="svelte-809ml2">SvelteKit como generador de blogs estáticos</h2> <div class="info-box svelte-176xaq3"> Esto es un apartado más técnico. Si no te interesa no sé qué haces
+leyendo este blog, para empezar. </div> <p data-svelte-h="svelte-1c01o13">No estoy usando ningún framework específico para blogs sino <strong>SvelteKit</strong> como
+generador de sitios estáticos, adaptado a mis necesidades.</p> <p data-svelte-h="svelte-1u01tjt">Hoy día los sitios estáticos no son ninguna sorpresa. Recuerdo a
+principios de milenio cuando la comunidad de php te miraba raro al decir
+de hacer todo en estático, y lo nicho que fue Jekyll hasta que Ruby on Rails
+pilló más popularidad.</p> <p data-svelte-h="svelte-r8zxp3">Entre 2022 y 2023 comencé un proyecto un poco más ambicioso al que llamé
+Simple Static Blog Generator, fundamentado en TypeScript y MarkDown. Estaba
+orientado a experiencia de desarrollo con capa de vista totalmente desacoplada,
+teniendo solo una implementación básica de demostración con pug como sistema
+de templates.</p> <p data-svelte-h="svelte-avlmxs">Aunque utilizaba herramientas modernas, integrar con frameworks de SPA,
+reactividad y diseño orientado a componentes era demasiado
+reinventar la rueda. Pensando en rediseñar el sistema sobre Nuxt (Vue),
+conocí Svelte y SvelteKit. El proyecto de Rich Harris me parecía increíble como
+para no darle una oportunidad, y no me arrepiento.</p> <p data-svelte-h="svelte-10ibczo">SvelteKit es a Svelte lo que Next a React o Nuxt a Vue, aunque con soporte
+oficial; digamos que SvelteKit/Svelte son parte del mismo proyecto
+en manos de la misma comunidad y se desarrollan completamente a la vez.</p> <p data-svelte-h="svelte-zmfge8">Quizás seas como yo y no te guste este tipo de frameworks “todo en uno”
+porque, al menos en flujos normales, implica una <small>no obligatoria pero
+recomendada</small> implementación de back end; pero su modo generador de sitios
+estáticos es con mucho margen la mejor experiencia de desarrollo que he tenido.</p> <p data-svelte-h="svelte-wmnnp">Alojar un sitio estático es prácticamente gratuito y apenas consume recursos.
+El servidor, a fin de cuentas, solo se dedica a enviar ficheros. Existen
+diversos servicios gratuitos para alojarlo, como Github Pages, donde
+justo está este blog.</p> <p data-svelte-h="svelte-oa6bid">En términos de seguridad, los sitios estáticos son más seguros por naturaleza.
+Los ataques de tipo DDoS solo funcionan por saturación de red y no por cómputo,
+dado el esfuerzo mínimo que tiene que hacer el servidor. Esto no evita que se
+agoten las cotas de recursos en servicios de hosting y es crítico
+cuando no se tiene ningún control del backend. En servicios como Pages
+donde además no se dispone de formas claras de auditar los ataques, solo se
+complica, especialmente con capas gratuitas.</p> <p>Hay otros beneficios <small data-svelte-h="svelte-12yc462">(y contras)</small>, pero no voy a
+dar <small data-svelte-h="svelte-ohh2xh">más</small> la chapa en esta entrada. Si tienes dudas
+concretas sobre implementación o quieres hacerte tu propio sitio
+estático con estas tecnologías y no sabes ni por dónde
+empezar <span class="line-through svelte-kze7de">déjame un comentario</span> mándame un correo.</p>
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/maquina-escribir.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/maquina-escribir.jpg"/>          
+          </item>
+        
+
+  </channel>
+</rss>

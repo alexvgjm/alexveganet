@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.CIIAj5VP.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.B6pSl1rA.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.OqrDXDMA.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.CoZLinqc.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.B0_aADyN.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/preload-helper.D6kgxu3v.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.5posBkut.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents">
+			<script>
+				{
+					__sveltekit_1yyqnv6 = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.CIIAj5VP.js"),
+						import("/_app/immutable/entry/app.B0_aADyN.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
