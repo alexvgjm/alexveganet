@@ -1,0 +1,1 @@
+import{w as i,l as o,m as s,g as u}from"./Cpbaq3x5.js";const g=i(!0);function l(e){let n=s(""),a=s(!0);return{get loading(){return u(a)},set loading(r){o(a,r,!0)},get headerId(){return u(n)},set headerId(r){o(n,r,!0)},get hljs(){return e}}}let t;const c=e=>{if(t)return t;if(!e)throw new Error("hljs required to init general store");return t=l(e),t};export{g as l,c as u};

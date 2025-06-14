@@ -1,0 +1,1 @@
+import{d as c,E as s,e as i,o as d,j as r,q as h,k as p}from"./Cpbaq3x5.js";function u(o,t,f){r&&h();var n=o,a,e;c(()=>{a!==(a=t())&&(e&&(d(e),e=null),a&&(e=i(()=>f(n,a))))},s),r&&(n=p)}export{u as c};

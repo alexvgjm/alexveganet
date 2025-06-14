@@ -1,0 +1,12 @@
+import{f as s,a as o,t as u}from"../chunks/C8u6z3Tc.js";import{p as g,u as f,s as l,f as h,a as v,n as p}from"../chunks/Cpbaq3x5.js";import{C as j}from"../chunks/CBCq1Mx-.js";import{I as $}from"../chunks/BS3TpUoV.js";import{C as q}from"../chunks/DdkXf41n.js";import{g as x}from"../chunks/mxhJBp4_.js";import{u as y}from"../chunks/eJOsRxFa.js";var S=s(`<p>Seguiremos la misma dinámica que con los tweens: nos centraremos en aquellas cosas que no se
+    suelen decir y que nos son de especial interés a nivel técnico, de rendimiento o para mejora del
+    flujo de desarrollo.</p>`),C=s('<div slot="right" style="position: relative"><div id="caja-1" class="caja"></div></div>'),_=s(`<h1>🕓 Timelines</h1> <!> <h2>Qué, cuándo y por qué</h2> <p>Los timelines son una forma de agrupar tweens, de conseguir que se ejecuten en una secuencia
+  específica, uno detrás de otro. Surgen ante la necesidad de realizar en secuencia y sincronizar
+  distintas animaciones.</p> <h2>Relación con stagger y ejemplo</h2> <p>La definición previa puede recordar ligeramente a la propiedad <strong>stagger</strong> de los tweens. De alguna manera lo que consigue esta propiedad es aplicar
+  en secuencia y sincronizar animaciones.</p> <p>Pero la limitación de stagger es evidente: sirve para aplicar <strong>el mismo tween</strong> a elementos distintos con un gap temporal.</p> <p>Con los timelines podemos orquestar <strong>tweens distintos</strong>. Por ejemplo:</p> <h3>🎞️ Animación: ir, girar y volver</h3> <!> <h3>🔀 Orquestar, sincronizar, acompasar...</h3> <p>Documentación: <a href="https://gsap.com/resources/position-parameter/">parámetro de posición</a></p> <p>Se explicará en clase. Se ampliarán estos documentos este fin de semana.</p>`,1);function T(c,m){g(m,!0),f(()=>{y().hljs.highlightAll();const e=document.querySelector("#caja-1");x.timeline({repeat:-1}).set(e,{position:"absolute"}).to(e,{left:"100%",x:"-100%"}).to(e,{rotate:360}).to(e,{left:0,x:0})});var t=_(),r=l(h(t),2);$(r,{title:"",infoType:"info",children:(e,n)=>{var a=S();o(e,a)},$$slots:{default:!0}});var d=l(r,16);j(d,{gap:4,$$slots:{left:(e,n)=>{q(e,{slot:"left",language:"JavaScript",children:(a,P)=>{p();var i=u();i.nodeValue=`const caja = document.querySelector('#caja-1')
+gsap.timeline({ repeat: -1 })
+    .set(caja, {position: 'absolute'})
+    .to(caja, {left: '100%', x: '-100%'})
+    .to(caja, {rotate: 360})
+    .to(caja, {left: 0, x: 0})
+});`,o(a,i)},$$slots:{default:!0}})},right:(e,n)=>{var a=C();o(e,a)}}}),p(6),o(c,t),v()}export{T as component};
