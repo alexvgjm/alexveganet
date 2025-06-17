@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.DodBN53L.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DWBeLjDo.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Bbe_YCY6.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Cpbaq3x5.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.BACv6BJ_.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Bfx6ipSN.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BcmdUT5r.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/C-poCQiD.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/C8u6z3Tc.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BLRVFVEn.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/VcX5GyfA.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CbFx3uyY.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/B56GtC7f.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/F-513GRx.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="loading">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents">
+			<script>
+				{
+					__sveltekit_n1lvx8 = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.DodBN53L.js"),
+						import("/_app/immutable/entry/app.BACv6BJ_.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

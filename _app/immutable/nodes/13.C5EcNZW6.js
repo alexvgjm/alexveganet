@@ -1,0 +1,1 @@
+import"../chunks/C8u6z3Tc.js";import"../chunks/DjRoK1_K.js";import{P as o}from"../chunks/CeEP4d3Y.js";import{i as r,g as e,a as i}from"../chunks/BimpLN0J.js";const a=r(!0),t=e(a);i(t);function g(s){o(s,{get posts(){return t}})}export{g as component};
