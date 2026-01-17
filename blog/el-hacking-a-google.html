@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link href="../_app/immutable/assets/4.ClJVwGEW.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/styles.BI8UiRY9.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/InfoBox.DvHn1tL4.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Code.CKCio-tz.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Image.07fnLzEs.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/ColumnsContainer.B6dEa0-C.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/utils.BEXRWt4v.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/18.BWf-Qbmh.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.Dys29Zju.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/wfScolaD.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/k_-SACZf.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BduZyM7k.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CUZXlhwM.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B6loGvSK.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CIWVgPg3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D15U5vI1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D4COoUHs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Bkwfa0mc.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.DZhwLGq6.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BqxltznQ.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/kPmmzQJp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DzBwx_jc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Km-0Pu8Z.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Cpacy8W0.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.CgfhGROC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BTGqeDDF.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CqkleIqs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C-pAAiiO.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BQ15y-oL.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CgVzVCqa.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/4.CL00ZXRP.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BSOZMg1Q.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CJDWlBBp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Wkx9sMwb.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C0NDRyn_.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/69_IOA4Y.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/611aVr9j.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CUg5QR1x.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/6.LhtG8EnN.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIabmNBn.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/18.CWU06UoW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dg0HV3ef.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CNfEwzh9.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DlsCqhfG.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dav-uZcp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NVWwRTYa.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/RmmjoSf4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/0WgYKyNH.js"><!--[--><!--[--><!--]--> <!--[--><meta name="robots" content="index,follow"/><!--]--> <!--[--><meta name="description" content="Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software."/><!--]--> <!--[--><link rel="canonical" href="https://alexvega.net/blog/el-hacking-a-google"/><!--]--> <!--[--><meta name="keywords" content="Ingeniería software, Formación, Desarrollo web"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta name="twitter:card" content="summary"/><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:title" content="El hacking a Google"/><!--]--> <!--[--><meta name="twitter:description" content="Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software."/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:image" content="https://alexvega.net/_app/immutable/assets/machinery.lcec4MJm.jpg"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta property="og:url" content="https://alexvega.net/blog/el-hacking-a-google"/><!--]--> <!--[!--><!--]--> <!--[--><meta property="og:title" content="El hacking a Google"/><!--]--> <!--[--><meta property="og:description" content="Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software."/><!--]--> <!--[--><!--[--><meta property="og:image" content="https://alexvega.net/_app/immutable/assets/machinery.lcec4MJm.jpg"/> <!--[--><meta property="og:image:alt" content="Alex Vega site logo"/><!--]--> <!--[--><meta property="og:image:width" content="1280"/><!--]--> <!--[--><meta property="og:image:height" content="720"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--[--><link rel="stylesheet" href="/blog.css"/><!--]--><title>El hacking a Google</title>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="loading">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents"><!--[--><!--[--><!----><!--[--><!----><!----> <!--[--><div class="nav-fade-overlay svelte-oabbd1"></div> <nav class="main-nav svelte-oabbd1"><a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/">Inicio</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/#contacto">Contacto</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/blog">Blog</a> <button class="main-nav__button svelte-oabbd1" tabindex="1" aria-busy="true" title="Desplegar menú de navegación" aria-label="Desplegar menú de navegación"></button></nav><!--]--> <!--[--><div class="loader svelte-14xshfi"><div class="loader__spinner svelte-14xshfi"></div></div><!--]--> <main class="svelte-1pvwjww main--loading"><!--[--><!----><!----><!----><!--[--><div class="cover svelte-s7hptc"><!--[--><div class="cover__author svelte-s7hptc">Fotografía cortesía de Isis França 🧡</div><!--]--> <!--[!--><picture><!--[--><source srcset="/_app/immutable/assets/machinery.B2JAbiy0.avif 1x, /_app/immutable/assets/machinery.B0k06fYR.avif 2x" type="image/avif"/><source srcset="/_app/immutable/assets/machinery.XKRnVKXm.webp 1x, /_app/immutable/assets/machinery.CVc1jLYE.webp 2x" type="image/webp"/><source srcset="/_app/immutable/assets/machinery.CmYyaLYN.jpg 1x, /_app/immutable/assets/machinery.lcec4MJm.jpg 2x" type="image/jpeg"/><!--]--> <img src="/_app/immutable/assets/machinery.lcec4MJm.jpg" alt="Portada del post" class="cover__img svelte-s7hptc" width="1280" height="720"/></picture><!--]--></div><!--]--> <article class="post svelte-1js559p" style="margin-top: 0px"><header class="post__header svelte-1js559p"><h1 class="post__title svelte-1js559p">El hacking a Google</h1> <div class="post__meta-row svelte-1js559p"><!--[--><div class="post__date svelte-1js559p">2 de agosto de 2024</div><!--]--> <!--[--><div class="post__tags svelte-1js559p"><!--[--><a class="tag svelte-rpb2ex" href="/tag/hacking">Hacking</a><a class="tag svelte-rpb2ex" href="/tag/back-end">Back end</a><a class="tag svelte-rpb2ex" href="/tag/front-end">Front end</a><a class="tag svelte-rpb2ex" href="/tag/cloud">Cloud</a><!--]--></div><!--]--></div></header> <!----><div class="info-box svelte-um5er8"><!--[!--><!--]--> <!----><!---->Entrada resubida, rescatada de tantas tonterías que escribí hace un 
+par de años. Contra todo pronóstico resulta ser que interesó a algunas personas, 
+las mismas que me pidieron la resubida para mantener ciertas fuentes. Aunque 
+he borrado la parte personal dado que estoy preparando otra entrada
+relacionada a salud mental.<!----></div><!----> <p>Mi último año por la universidad cursé una asignatura de desarrollo de
+aplicaciones web de la mano de un profesor al que estaré eternamente agradecido:
+Abraham Rodríguez, el ahora vicegerente de Agenda Digital de la ULPGC, lo que
+carajo sea que eso signifique…</p> <p>Una de las primeras tareas consistía en hacer una aplicación con Angular 2+ e
+Ionic que de backend utilizara el servicio Firebase de Google.</p> <p>Por aquel entonces nos hacían trabajar con la base
+de datos en tiempo real de dicho servicio, algo que podía explotarse muy bien
+con la librería RxJS —la implementación de ReactiveX en JavaScript— para obtener
+reactividad de datos a nivel de servicio y a través de sockets. Se hacía uso del
+framework NgRx sobre ella, que facilitaba las tareas de comunicación y
+control de estado centralizado, distribuido en red y reactivo en Angular.</p> <p>Mi descubrimiento de ReactiveX y los diagramas reactivos me emocionó, muchísimo,
+era un nuevo mundo que bebía del mecanismo, patrón, técnica, paradigma y casi
+filosofía de desarrollo que más me gustaba: era la evolución del patrón
+observer y la programación reactiva en general, llevada a red. Aún ni conocía
+qué era la Event-Driven Architecture, pero sí me sentía atraído por
+una comunicación vía observación, eventos y mensajes. Sabía que sería
+un trabajo que disfrutar como un niño pequeño. El problema es que Google
+decidió poner obstáculos.</p> <h2>Las antiguas limitaciones de Cloud Functions</h2> <p>Concretamente solo me tocó hacer un mero chat por salas, pero Google me
+bloqueaba un servicio de Firebase fundamental: Cloud Functions. Lo cierto es que
+su único requisito era que pusiera una tarjeta de crédito o débito y ni siquiera
+conllevaba ningún cargo inicial salvo que gastaras mucho tiempo de ejecución
+o hicieras miles de llamadas a las funciones.</p> <p>Cloud Functions es una característica y framework de Firebase que
+permite ejecutar código JS en la nube a través de peticiones http y que se
+integraba correctamente con la base de datos en tiempo real (RTDB, del inglés)
+y otras features cloud del servicio. Todas estas historias que se
+popularizaron como serverless computing y permitían hacer una API rápidamente.</p> <p>Muy convenientemente para Google estas funciones podían entrar en una
+suerte de recursividad casi infinita si tenías un error, generando facturas
+de cientos de euros en una noche si no te dabas cuenta. Por ello nunca deberías
+usar tu tarjeta en un servicio que no te establezca un límite duro de cuotas y
+te de opción de detener el servicio si se superan en lugar de cobrarte por
+exceso. Y no, no vale una tarjeta monedero, acabarás con una deuda que Google
+intentará resolver de forma muy activa por lo que me han contado.</p> <p>Ignorando a Cloud Functions, los primeros cuatro días los invertí buscando
+formas de conseguir un CRUD perfecto con validación en backend usando
+exclusivamente la base de datos y su sistema de permisos integrados con su
+sistema de auth. No tardaron en aparecer los primeros inconvenientes.</p> <p>Necesitaba algunas funciones relacionadas a la creación de salas y el límite
+de salas que podía tener un único usuario, algo que requería algo más de
+lógica. Desde una API con Cloud Functions no costaba nada, mientras que por
+razones de responsabilidad no eran posibles de realizar en la base de datos. Los
+esquemas de la RTDB eran más reducidos que ahora.</p> <!--[--><figure class="image-wrapper svelte-1urev20"><a href="data:image/png;base64,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" target="_blank"><img src="data:image/png;base64,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" alt="Modelo describiendo la comunicación tradicional con Firebase" class="svelte-1urev20"/></a> <figcaption class="svelte-1urev20"><!---->Modelo ideal. No válido dado que Google bloqueaba cualquier tipo de petición externa a Cloud Functions si no tenías tarjeta de crédito o débito.<!----></figcaption></figure><!--]--><!----> <p>Pero Cloud Functions en realidad sí estaba disponible, lo único que limitaba
+eran las llamadas a la API de manera externa, vamos, justamente lo que más
+necesita alguien que quiera usar el servicio.</p> <p>Lo que exploté es que sí permitía definir “triggers” o disparadores.
+Funciones que se ejecutaran ante situaciones concretas en la base de datos,
+como que un usuario escribe un dato en determinado nodo.</p> <p>El servicio no garantizaba que la ejecución de esos disparadores fuera
+inmediata. Además, solo se podía comunicar con la base de datos,
+no podía responder hacia fuera de ninguna manera… ¿o sí? 🙂</p> <h2>Los observables</h2> <p>La gracia de la RTDB es que es en tiempo real como su nombre indica. Esto
+significa que puedes observar cualquier nodo mediante un
+socket y que te sea notificado cuando cambie. Esto es lo que permite, por
+ejemplo, que veas mensajes aparecer en un chat sin tu pulsar un botón de
+refrescar.</p> <p>Ahora supongamos una base de datos en la que se reserva para cada usuario un
+nodo con 2 subnodos a los que coherentemente llamamos request y response:</p> <div class="code-wrapper svelte-122pskk" style="--lang-color: transparent"><!--[!--><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->...,
+userRequests: {
+    v8934sdafbi4r3vfewsjkvwevqwe: {
+        request: { ... },
+        response: { ... }
+    },
+    wigr908u43nwpdfglxjretjkhne3: {
+        request: { ... },
+        response: { ... }
+    }
+}<!----></code></pre></div><!----> <p>Cuando un usuario quiere hacer una petición POST, en lugar de hacer una petición
+HTTP a Cloud Functions con el clásico fetch de JavaScript, puede
+escribir directamente en su nodo request adecuado en la RTDB con NgRx.
+Las ristras largas y aleatorias representan la ID de un usuario autenticado,
+que bien podría ser un UUID estándar.
+En su propio nodo request —que es donde único tendría permiso de escritura un
+usuario— puede establecer los datos de la petición.</p> <p>El exploit reside en la configuración de un trigger que se disparará cuando un
+usuario escriba su request. Este nodo solo tiene
+parámetros como si de una función post se tratara. El trigger ya me adelanta
+parte del trabajo porque por defecto recibe información acerca del
+usuario que ha causado el cambio y el nodo cambiado. Por tanto,
+escribir en el nodo request provoca la llamada a una función que conocerá dicho
+contexto siendo, en efecto, una forma de invocar una función con argumentos.</p> <div class="code-wrapper svelte-122pskk" style="--lang-color: transparent"><!--[!--><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->...,
+userRequests: {
+    v8934sdafbi4r3vfewsjkvwevqwe: {
+        request: {
+            id: '4afb4ef5065a',
+            op: 'CREATE_ROOM',
+            body: { password: '1234' }
+        },
+        response: {
+            id: '4afb4ef5065a',
+            body: { createdRoomID: 'x87bhu43'}
+        }
+    },
+    ...
+}<!----></code></pre></div><!----> <p>Si se quiere crear una sala de chat, el usuario solo tendría que escribir en su
+nodo request un UUID aleatorio generado previamente a fin de tener algo que
+identifique la petición, la operación que quiere realizar
+(CREATE_ROOM en este caso) y los parámetros que pueda requerir dicha operación.
+En este ejemplo el único parámetro se trataba de una contraseña para la sala.</p> <p>En resumen: hice una API a través de una base de datos. La forma de recibir
+respuesta es mediante eventos, usando NgRx se observa el
+nodo response. Sabrá que ha sido respondida cuando la ID en response coincida
+con la ID enviada. Y la respuesta la recibirá en el nodo body de response. En
+este caso el servidor da una ID de la sala, la típica que compartir con tus
+amigos para que entren como se hace en juegos online o Hangouts (EDIT:
+actualmente Meets)</p> <!--[--><figure class="image-wrapper svelte-1urev20"><a href="/_app/immutable/assets/caso-hacking-firebase-modelo2.Cy1_403W.png" target="_blank"><img src="/_app/immutable/assets/caso-hacking-firebase-modelo2.Cy1_403W.png" alt="diagrama describiendo la comunicación con el servicio faked" class="svelte-1urev20"/></a> <figcaption class="svelte-1urev20"><!---->Modificaciones. Las peticiones por fetch son reemplazadas por escrituras en la RTDB que disparaban triggers de Cloud Functions. La instancia concreta de FakeAPIService en realidad se inyecta. <small>Nota en 2024: Ahora soy consciente de que, aunque correcto, el diagrama es bastante feucho. En esos tiempos no conocía formas más claras de representar inyecciones de dependencias, inversiones de control y otras tantas cosas.</small><!----></figcaption></figure><!--]--><!----> <p>Todo este proceso es transparente a la aplicación. Podemos abstraer una interfaz
+del servicio original y mantener las dos implementaciones si queremos, como
+se muestra en el diagrama. Para
+la aplicación, la interfaz del servicio sería la misma, que puede trabajar con
+simples promesas como si de un fetch se tratara.</p> <p>Claro que esto no es un uso realista de la base de datos. Estamos
+sobrecargándola y además implica tratar con unas esperas del trigger que a veces
+podía llegar a los 4 segundos. Para una operación de creación de un recurso
+no es algo tan bestial, pero estas esperas reducen drásticamente la
+aplicabilidad en muchos otros casos de uso. También, de esta manera es más
+fácil gastar la cuota de uso de la base de datos, aunque su ampliación sea más
+barata que Cloud Functions en sí misma.</p> <h2>Las consecuencias</h2> <p>Las consecuencias no fueron más que gotas a un vaso a punto
+de rebosar o leña para una hoguera que comenzaba a arder. En la versión original
+de esta entrada hablaba de una crisis que
+mezcla obsesión, irresponsabilidad afectiva y retraso madurativo a partes
+iguales. En los próximos días publicaré algo al respecto <small>(UPDATE del 28 noviembre de 2024: sigue pendiente)</small>. De momento prefiero no mezclar cosas.</p> <p>Nunca he tenido la intención de usar la acepción de
+hacking como cibercrimen o nada relacionado a seguridad, sino como sobrepasar
+los límites de una tecnología o técnica para una aplicación mayor o con un uso
+no pensado. Sin embargo, esto sí era un claro bypass a una restricción de
+servicio. De publicarse y popularizarse estoy seguro de que como mínimo
+Google habría limitado mucho más a Cloud Functions si ésta
+era una de sus principales características monetizadas.</p><!----></article><!----><!----><!----><!--]--><!----></main> <footer class="svelte-1pvwjww">Alexander Vega © 2026</footer><!----><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_hm0bcj = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.Dys29Zju.js"),
+						import("../_app/immutable/entry/app.DZhwLGq6.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4, 6, 18],
+							data: [null,null,{type:"data",data:{post:{title:"El hacking a Google",slug:"el-hacking-a-google",coverImage:"machinery.jpg",coverAuthor:"Isis França",excerpt:"Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software.",date:"2024-08-02T01:19:04.325Z",updated:"2024-08-02T01:19:04.326Z",hidden:false,tags:["Hacking","Back end","Front end","Cloud"],keywords:[],type:"default",path:"/src/posts/el-hacking-a-google.md",html:void 0,relatedPosts:[{title:"Tamaños que no importan: tree-shakeables",slug:"tamano-no-importa-tree-shakeables",coverImage:"tree-shaking.jpg",coverAuthor:"Edoardo Botez",excerpt:"Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript.",date:"2024-08-11T15:06:23.177Z",updated:"2024-08-11T15:06:23.903Z",hidden:false,tags:["DX","Front end"],keywords:["tree-shake","side-effects","biblioteca"],type:"default",path:"/src/posts/tamano-no-importa-tree-shakeables.md",html:void 0},{title:"Arneses para testeo de componentes de UI",slug:"arneses-testing-componentes",excerpt:"Ventajas de los arneses en testing de componentes compuestos.",date:"2026-01-16T01:26:23.177Z",updated:"2026-01-16T01:26:23.903Z",tags:["Testing/TDD/BDD/ATDD","UI/UX","Component design"],keywords:["arneses","harness","testing"],type:"default",coverImage:void 0,path:"/src/posts/arneses-testing-componentes.md",html:void 0},{title:"Autonomía y ajenidad (parte 1)",slug:"autonomia-ajenidad-1",coverImage:"starfish.jpg",coverPosition:"normal",coverAuthor:"Pedro Lastra",excerpt:"El trabajador autónomo no existe y el trabajo no es un orgullo.",date:"2024-08-24T13:06:23.177Z",updated:"2024-08-24T13:06:23.903Z",hidden:false,tags:["Personal","Laboral","Software libre"],keywords:["trabajo","autónomo"],type:"default",path:"/src/posts/autonomia-ajenidad-1.md",html:void 0}],month:"08",day:"02"}},uses:{params:["slug"]}},{type:"data",data:{post:{title:"El hacking a Google",slug:"el-hacking-a-google",coverImage:"machinery.jpg",coverAuthor:"Isis França",excerpt:"Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software.",date:"2024-08-02T01:19:04.325Z",updated:"2024-08-02T01:19:04.326Z",hidden:false,tags:["Hacking","Back end","Front end","Cloud"],keywords:[],type:"default",path:"/src/posts/el-hacking-a-google.md",html:void 0,relatedPosts:[{title:"Tamaños que no importan: tree-shakeables",slug:"tamano-no-importa-tree-shakeables",coverImage:"tree-shaking.jpg",coverAuthor:"Edoardo Botez",excerpt:"Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript.",date:"2024-08-11T15:06:23.177Z",updated:"2024-08-11T15:06:23.903Z",hidden:false,tags:["DX","Front end"],keywords:["tree-shake","side-effects","biblioteca"],type:"default",path:"/src/posts/tamano-no-importa-tree-shakeables.md",html:void 0},{title:"Arneses para testeo de componentes de UI",slug:"arneses-testing-componentes",excerpt:"Ventajas de los arneses en testing de componentes compuestos.",date:"2026-01-16T01:26:23.177Z",updated:"2026-01-16T01:26:23.903Z",tags:["Testing/TDD/BDD/ATDD","UI/UX","Component design"],keywords:["arneses","harness","testing"],type:"default",coverImage:void 0,path:"/src/posts/arneses-testing-componentes.md",html:void 0},{title:"Autonomía y ajenidad (parte 1)",slug:"autonomia-ajenidad-1",coverImage:"starfish.jpg",coverPosition:"normal",coverAuthor:"Pedro Lastra",excerpt:"El trabajador autónomo no existe y el trabajo no es un orgullo.",date:"2024-08-24T13:06:23.177Z",updated:"2024-08-24T13:06:23.903Z",hidden:false,tags:["Personal","Laboral","Software libre"],keywords:["trabajo","autónomo"],type:"default",path:"/src/posts/autonomia-ajenidad-1.md",html:void 0}],month:"08",day:"02"}},uses:{params:["slug"]}}],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link href="../_app/immutable/assets/7.DNbpoKaM.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/atom-one-dark.pERYd9e1.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/CristalPanel.xYD1iTQ7.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Code.CKCio-tz.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/21.CvLCKKdJ.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.Dys29Zju.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/wfScolaD.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/k_-SACZf.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BduZyM7k.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CUZXlhwM.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B6loGvSK.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CIWVgPg3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D15U5vI1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D4COoUHs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Bkwfa0mc.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.DZhwLGq6.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BqxltznQ.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/kPmmzQJp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DzBwx_jc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Km-0Pu8Z.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Cpacy8W0.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.CgfhGROC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BTGqeDDF.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CqkleIqs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C-pAAiiO.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BQ15y-oL.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CgVzVCqa.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/7.IphvYap3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BSOZMg1Q.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/bJGP4r0Y.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/21.T5ejeYDQ.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CJDWlBBp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Wkx9sMwb.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B3A7t7Jc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/RmmjoSf4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NVWwRTYa.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DlsCqhfG.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/69_IOA4Y.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIabmNBn.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/611aVr9j.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/rBwrARmC.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="loading">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents"><!--[--><!--[--><!----><!--[--><!----><!--[!--><!----><canvas></canvas> <header class="example-header"><div class="cristal-pane svelte-1o6kcy3"><!--[!--><!--]--> <h2 class="example-title">InstancedMesh attributes with TSL</h2><!----></div><!----></header> <main class="example-info"><div class="cristal-pane svelte-1o6kcy3"><!--[--><header class="svelte-1o6kcy3"><h3><!---->What is shown here<!----></h3></header><!--]--> <p>In this scene, we have an InstancedMesh of spheres changing its emissive color,
+            each with a custom attribute that regulates the color change speed.
+            Some spheres change color faster than others.</p><!----></div><!----> <div class="cristal-pane svelte-1o6kcy3"><!--[--><header class="svelte-1o6kcy3"><h3><!---->Material creation<!----></h3></header><!--]--> <p>We can understand the TSL <code>attribute()</code> as a per-vertex attribute value fetcher,
+        but if an <code>InstancedBufferAttribute</code> is used, it takes the instance index into account.</p> <div class="code-wrapper svelte-122pskk" style="--lang-color: #3178c6"><!--[--><div class="code-wrapper__lang svelte-122pskk">TypeScript</div><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->function createPulsatingMaterial() {
+    const mat = new MeshStandardNodeMaterial({ color: 'black' })
+
+    // ------------- ⭐ THE IMPORTANT PART ⭐ -------------
+    const emissionChangeSpeed = attribute('emissionChangeSpeed', 'float')
+    // -----------------------------------------------------
+
+    // Oscillates between 0 and 1. Frequency based on emissionChangeSpeed
+    //           (sin(x) + 1) / 2 =   a value between 0 and 1
+    const normalizedOscillation
+        = sin(time.mul(emissionChangeSpeed)).add(1).mul(0.5)
+
+    // Emission color. Orange-ish (red fixed at 1, green between 0 and 0.6)
+    mat.emissiveNode = vec3(1, normalizedOscillation.mul(0.6), 0)
+
+    return mat
+}<!----></code></pre></div><!----><!----></div><!----> <div class="cristal-pane svelte-1o6kcy3"><!--[--><header class="svelte-1o6kcy3"><h3><!---->InstancedMesh creation<!----></h3></header><!--]--> <p>Here the code for creating the InstancedMesh and defining a custom attribute.</p> <div class="hidden-code"><div class="code-wrapper svelte-122pskk" style="--lang-color: #3178c6"><!--[--><div class="code-wrapper__lang svelte-122pskk">TypeScript</div><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->function createSpheres() {
+    const geometry = new SphereGeometry(0.75, 16, 16)
+    const material = createPulsatingMaterial() // More on this later
+    const count = 5 * 5 * 5 // 125
+
+    // ------------- ⭐ THE IMPORTANT PART ⭐ -------------
+    const emissionChangeSpeedsArray = new Float32Array(count)
+    // random change speed between 0.5 and 2.0 for each instance
+    for (let i = 0; i &lt; count; i++) {
+        emissionChangeSpeedsArray[i] = 0.5 + Math.random() * 1.5
+    }
+    geometry.setAttribute(
+        'emissionChangeSpeed',
+        new InstancedBufferAttribute(emissionChangeSpeedsArray, 1)
+    )
+    // -----------------------------------------------------
+    const spheres = new InstancedMesh(geometry, material, count)
+    spheres.position.set(-4, 0.5, -4)
+
+    let index = 0
+    const transformMatrix = new Matrix4()
+    for (let x = 0; x &lt; 5; x++) { // Classic hadouken for matrix 5x5x5 formation
+        for (let y = 0; y &lt; 5; y++) {
+            for (let z = 0; z &lt; 5; z++) {
+                transformMatrix.setPosition(x * 2, y * 2, z * 2)
+                spheres.setMatrixAt(index, transformMatrix)
+                index++
+            }
+        }
+    }
+
+    return spheres
+}<!----></code></pre></div><!----></div> <div><div class="code-wrapper svelte-122pskk" style="--lang-color: #3178c6"><!--[--><div class="code-wrapper__lang svelte-122pskk">TypeScript</div><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->function createSpheres() {
+    const geometry = new SphereGeometry(0.75, 16, 16)
+    const material = createPulsatingMaterial() // More on this later
+    const count = 5 * 5 * 5 // 125
+
+    // ------------- ⭐ THE IMPORTANT PART ⭐ -------------
+    const emissionChangeSpeedsArray = new Float32Array(count)
+    // random change speed between 0.5 and 2.0 for each instance
+    for (let i = 0; i &lt; count; i++) {
+        emissionChangeSpeedsArray[i] = 0.5 + Math.random() * 1.5
+    }
+    geometry.setAttribute(
+        'emissionChangeSpeed',
+        new InstancedBufferAttribute(emissionChangeSpeedsArray, 1)
+    )
+    // -----------------------------------------------------
+
+    const spheres = new InstancedMesh(geometry, material, count)
+
+    // Irrelevant code for positioning and return the spheres.
+    // Check "show hidden code" if you want to see it anyway.
+}<!----></code></pre></div><!----></div> <div class="show-hidden-control svelte-ktnk07"><input type="checkbox" id="show-hidden"/> <label for="show-hidden">Show hidden code</label></div><!----></div><!----></main><!----><!--]--><!----> <header class="svelte-1c386zv"><h1>Three.js examples <address class="author svelte-1c386zv">by Alex Vega</address></h1></header> <button class="nav-button svelte-1c386zv"><!--[!-->&lt; ... ><!--]--></button><!----><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_hm0bcj = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.Dys29Zju.js"),
+						import("../_app/immutable/entry/app.DZhwLGq6.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 7, 21],
+							data: [null,null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

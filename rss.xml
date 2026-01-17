@@ -1,0 +1,373 @@
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  xmlns:georss="http://www.georss.org/georss"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+  <channel>
+    <atom:link href="https://alexvega.net/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Alex Vega - Formación y consultoría</title>
+    <link>https://alexvega.net</link>
+    <description>Formación y consultoría especializada en desarrollo ágil. Web, sistemas de información e ingeniería de software.</description>
+    <image>
+      <url>https://alexvega.net/favicon.png</url>
+      <title>Alex Vega - Formación y consultoría</title>
+      <link>https://alexvega.net</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    
+    
+          <item>
+            <guid>https://alexvega.net/blog/arneses-testing-componentes</guid>
+            <title>Arneses para testeo de componentes de UI</title>
+            <description>Ventajas de los arneses en testing de componentes compuestos.</description>
+            <link>https://alexvega.net/arneses-testing-componentes</link>
+            <pubDate>Vie, 16 Ene 2026 01:26:23 +0000</pubDate>
+            <category>Testing/TDD/BDD/ATDD</category><category>UI/UX</category><category>Component design</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/arneses-testing-componentes">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            
+                      
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/flipadismos-mecanismos-oop</guid>
+            <title>Flipadismos de mecanismos en programación orientada a objetos</title>
+            <description>El código simple es fácil de cambiar; los flipadismos que nadie ha pedido, no.</description>
+            <link>https://alexvega.net/flipadismos-mecanismos-oop</link>
+            <pubDate>Jue, 04 Sep 2025 19:32:04 +0000</pubDate>
+            <category>Ingeniería software</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/flipadismos-mecanismos-oop">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            
+                      
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/ensenanza-aprendizaje-profundo</guid>
+            <title>La enseñanza es la forma de aprendizaje más profunda</title>
+            <description>La enseñanza se presenta como una forma de trabajar múltiples habilidades necesarias en nuestra profesión, empezando por la comunicación.</description>
+            <link>https://alexvega.net/ensenanza-aprendizaje-profundo</link>
+            <pubDate>Vie, 09 May 2025 20:41:04 +0000</pubDate>
+            <category>Formación</category><category>Ingeniería software</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/ensenanza-aprendizaje-profundo">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            
+                      
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/sobre-consecuencias-y-su-recurrencia</guid>
+            <title>Sobre las consecuencias y su recurrencia</title>
+            <description>Es terriblemente cruel el modo en que la sociedad, incluso en nombre de la moral o la prudencia, ejerce esa vigilancia eterna; el modo en el que el pasado se convierte en presente renovado.</description>
+            <link>https://alexvega.net/sobre-consecuencias-y-su-recurrencia</link>
+            <pubDate>Lun, 07 Abr 2025 01:09:04 +0000</pubDate>
+            <category>Personal</category><category>Salud mental</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/sobre-consecuencias-y-su-recurrencia">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            
+                      
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/cuantas-muertes-evitables</guid>
+            <title>Cuántas muertes evitables...</title>
+            <description>He publicado una lista de errores comunes un pelín alarmista.</description>
+            <link>https://alexvega.net/cuantas-muertes-evitables</link>
+            <pubDate>Jue, 27 Mar 2025 22:38:29 +0000</pubDate>
+            <category>TDD/BDD/ATDD</category><category>Ingeniería software</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/cuantas-muertes-evitables">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            
+                      
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/miedo-de-decir-miedo-de-ser</guid>
+            <title>Miedo de decir, miedo de ser</title>
+            <description>Me han preguntado si no me da miedo escribir algunas cosas,  pues podría estar saboteando mi futuro. Respondo.</description>
+            <link>https://alexvega.net/miedo-de-decir-miedo-de-ser</link>
+            <pubDate>Jue, 28 Nov 2024 01:09:04 +0000</pubDate>
+            <category>Personal</category><category>Laboral</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/miedo-de-decir-miedo-de-ser">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/paisaje-miedo.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/paisaje-miedo.jpg"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/caso-suite-cosby</guid>
+            <title>🔴 Caso de la suite Cosby</title>
+            <description>Repaso algunas experiencias con este caso, implicados, nuestra postura y resultados.</description>
+            <link>https://alexvega.net/caso-suite-cosby</link>
+            <pubDate>Dom, 06 Oct 2024 13:00:23 +0000</pubDate>
+            <category>Personal</category><category>Tooling</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/caso-suite-cosby">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/blizzard.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/blizzard.jpg"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/peligro-trivializar-typescript</guid>
+            <title>El peligro de trivializar. Edición TypeScript.</title>
+            <description>Un error común es creer que TypeScript es una tontería que se aprende en cinco minutos. Quienes lo creen van directos a un precipicio.</description>
+            <link>https://alexvega.net/peligro-trivializar-typescript</link>
+            <pubDate>Sáb, 28 Sep 2024 16:31:23 +0000</pubDate>
+            <category>TypeScript</category><category>DX</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/peligro-trivializar-typescript">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/any-code.png"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/any-code.png"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/deja-esperar-otros</guid>
+            <title>Deja de esperar por otros</title>
+            <description>Hacerte tus propias herramientas puede acelerar tu trabajo, explico por qué.</description>
+            <link>https://alexvega.net/deja-esperar-otros</link>
+            <pubDate>Vie, 13 Sep 2024 13:00:23 +0000</pubDate>
+            <category>Tooling</category><category>Three.js</category><category>DX</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/deja-esperar-otros">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/jon-tyson.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/jon-tyson.jpg"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/discursos-segregacionistas</guid>
+            <title>Discursos segregacionistas</title>
+            <description>Recogiendo cable. Explico por qué no tolero ni en mí mismo algunos discursos.</description>
+            <link>https://alexvega.net/discursos-segregacionistas</link>
+            <pubDate>Sáb, 07 Sep 2024 22:06:23 +0000</pubDate>
+            <category>Personal</category><category>Salud mental</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/discursos-segregacionistas">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/valla.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/valla.jpg"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/autonomia-ajenidad-1</guid>
+            <title>Autonomía y ajenidad (parte 1)</title>
+            <description>El trabajador autónomo no existe y el trabajo no es un orgullo.</description>
+            <link>https://alexvega.net/autonomia-ajenidad-1</link>
+            <pubDate>Sáb, 24 Ago 2024 13:06:23 +0000</pubDate>
+            <category>Personal</category><category>Laboral</category><category>Software libre</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/autonomia-ajenidad-1">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/starfish.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/starfish.jpg"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/tamano-no-importa-tree-shakeables</guid>
+            <title>Tamaños que no importan: tree-shakeables</title>
+            <description>Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript.</description>
+            <link>https://alexvega.net/tamano-no-importa-tree-shakeables</link>
+            <pubDate>Dom, 11 Ago 2024 15:06:23 +0000</pubDate>
+            <category>DX</category><category>Front end</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/tamano-no-importa-tree-shakeables">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/tree-shaking.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/tree-shaking.jpg"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/el-hacking-a-google</guid>
+            <title>El hacking a Google</title>
+            <description>Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software.</description>
+            <link>https://alexvega.net/el-hacking-a-google</link>
+            <pubDate>Vie, 02 Ago 2024 01:19:04 +0000</pubDate>
+            <category>Hacking</category><category>Back end</category><category>Front end</category><category>Cloud</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/el-hacking-a-google">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/machinery.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/machinery.jpg"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/especificacion-visual-caso-point-it-out</guid>
+            <title>Especificación visual. Caso Point it out!</title>
+            <description>Caso de un proyecto en activo para el que repaso el concepto de regresión visual y especificación visual. Contenido denso.</description>
+            <link>https://alexvega.net/especificacion-visual-caso-point-it-out</link>
+            <pubDate>Jue, 25 Jul 2024 15:06:23 +0000</pubDate>
+            <category>Testing/TDD/BDD/ATDD</category><category>Tooling</category><category>DX</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/especificacion-visual-caso-point-it-out">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/pio-round-fail-test.png"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/pio-round-fail-test.png"/>          
+          </item>
+        
+          <item>
+            <guid>https://alexvega.net/blog/por-que-un-blog-en-2024</guid>
+            <title>Por qué un blog en 2024</title>
+            <description>Esta es la primera entrada de un un blog en el que controlo todo su proceso generativo y contenido.</description>
+            <link>https://alexvega.net/por-que-un-blog-en-2024</link>
+            <pubDate>Lun, 24 Jun 2024 15:06:23 +0000</pubDate>
+            <category>Personal</category>
+            <content:encoded><![CDATA[
+              <div style="margin: 50px 0; font-style: italic;">
+                Si algo parece incorrecto, 
+                <strong>
+                  <a href="https://alexvega.net/por-que-un-blog-en-2024">
+                    ¡léelo en la web!
+                  </a>
+                </strong>
+              </div>
+  
+              undefined
+            ]]></content:encoded>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexvega.net/maquina-escribir.jpg"/>
+            <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://alexvega.net/maquina-escribir.jpg"/>          
+          </item>
+        
+
+  </channel>
+</rss>

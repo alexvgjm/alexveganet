@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.Dys29Zju.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/wfScolaD.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/k_-SACZf.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BduZyM7k.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CUZXlhwM.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/B6loGvSK.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CIWVgPg3.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/D15U5vI1.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/D4COoUHs.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Bkwfa0mc.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.DZhwLGq6.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BqxltznQ.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/kPmmzQJp.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DzBwx_jc.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Km-0Pu8Z.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Cpacy8W0.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="loading">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents">
+			<script>
+				{
+					__sveltekit_hm0bcj = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.Dys29Zju.js"),
+						import("/_app/immutable/entry/app.DZhwLGq6.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

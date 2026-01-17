@@ -1,25 +1,67 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
 		
-		<link href="./_app/immutable/assets/0.BQU40PW-.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/2.Drc8yd_d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.DtHG9GUL.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CDeN3n2h.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CaHUfm9I.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.C2FvGGAl.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.D6kgxu3v.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.B8kFTOav.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.ByO4fTxK.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.CIRVX9AW.js">
+		<link href="./_app/immutable/assets/4.ClJVwGEW.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/styles.BI8UiRY9.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/15.JI4MJaKm.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Dys29Zju.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/wfScolaD.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/k_-SACZf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BduZyM7k.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CUZXlhwM.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B6loGvSK.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CIWVgPg3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D15U5vI1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D4COoUHs.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Bkwfa0mc.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DZhwLGq6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BqxltznQ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/kPmmzQJp.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DzBwx_jc.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Km-0Pu8Z.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Cpacy8W0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CgfhGROC.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BTGqeDDF.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CqkleIqs.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C-pAAiiO.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BQ15y-oL.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CgVzVCqa.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.CL00ZXRP.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BSOZMg1Q.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CJDWlBBp.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Wkx9sMwb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C0NDRyn_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/69_IOA4Y.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/611aVr9j.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CUg5QR1x.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/15.CwHJlwsb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/NVWwRTYa.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DIabmNBn.js"><!--[--><!--[--><!--]--> <!--[--><meta name="robots" content="index,follow"/><!--]--> <!--[--><meta name="description" content="Formación y consultoría especializada en desarrollo ágil. Web, sistemas de información e ingeniería de software."/><!--]--> <!--[--><link rel="canonical" href="https://alexvega.net"/><!--]--> <!--[--><meta name="keywords" content="Ingeniería software, Formación, Desarrollo web"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta name="twitter:card" content="summary"/><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:title" content="Alex Vega - Formación y consultoría"/><!--]--> <!--[--><meta name="twitter:description" content="Formación y consultoría especializada en desarrollo ágil. Web, sistemas de información e ingeniería de software."/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:image" content="https://alexvega.net/logo256.png"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta property="og:url" content="https://alexvega.net"/><!--]--> <!--[!--><!--]--> <!--[--><meta property="og:title" content="Alex Vega - Formación y consultoría"/><!--]--> <!--[--><meta property="og:description" content="Formación y consultoría especializada en desarrollo ágil. Web, sistemas de información e ingeniería de software."/><!--]--> <!--[--><!--[--><meta property="og:image" content="https://alexvega.net/logo256.png"/> <!--[--><meta property="og:image:alt" content="Alex Vega site logo"/><!--]--> <!--[--><meta property="og:image:width" content="256"/><!--]--> <!--[--><meta property="og:image:height" content="256"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><title>Alex Vega - Formación y consultoría</title>
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<body data-sveltekit-preload-data="hover" class="loading">
 		<div class="hydration-protection-wrapper__dont-remove" 
-			 style="display: contents">  <main class="svelte-11fn94e"><section class="hero svelte-1lsr2wm" data-svelte-h="svelte-1grp135"><h1 class="hero__title svelte-1lsr2wm">Álex Vega</h1> <h2 class="hero__subtitle svelte-1lsr2wm">Formación y consultoría</h2> <p class="hero__description svelte-1lsr2wm"><strong>Desarrollo web</strong>, 
-        <strong>ingeniería de software</strong> y <strong>sistemas de información</strong></p> </section> <section class="main-section main-section--learning svelte-1cz8zhj"><svg class="section-svg obstacles svelte-13qgbeb" viewBox="0 0 640 230" style=""><g><path class="obstacles__wall" d="
+			 style="display: contents"><!--[--><!--[--><!----><!--[--><!----><!----> <!--[--><div class="nav-fade-overlay svelte-oabbd1"></div> <nav class="main-nav svelte-oabbd1"><a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/">Inicio</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/#contacto">Contacto</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/blog">Blog</a> <button class="main-nav__button svelte-oabbd1" tabindex="1" aria-busy="true" title="Desplegar menú de navegación" aria-label="Desplegar menú de navegación"></button></nav><!--]--> <!--[--><div class="loader svelte-14xshfi"><div class="loader__spinner svelte-14xshfi"></div></div><!--]--> <main class="svelte-1pvwjww main--loading"><!--[!--><!----><section class="hero svelte-jxnpsk"><h1 class="hero__title svelte-jxnpsk">Álex Vega</h1> <h2 class="hero__subtitle svelte-jxnpsk">Formación y consultoría</h2> <p class="hero__description svelte-jxnpsk"><strong>Desarrollo web</strong>, <strong>ingeniería de software</strong> y <strong>sistemas de información</strong></p></section><!----> <section class="main-section main-section--learning svelte-w3rdjs"><svg class="section-svg obstacles svelte-1obepk2" viewBox="0 0 640 230" style=""><g class="svelte-1obepk2"><path class="obstacles__wall svelte-1obepk2" d="
         m 152 38
         h 245
         v 15
@@ -41,7 +83,7 @@
         v 15
         h 120
         v -135 z
-        "></path><path class="obstacles__ball" style="stroke-width: 10;" d="m 320 25
+        "></path><path class="obstacles__ball svelte-1obepk2" style="stroke-width: 10;" d="m 320 25
               c 120 10 80 -30 125 40
            c -30 -5  -40 -5  -55 25
            h -110
@@ -51,7 +93,7 @@
            v 35
            h 67
            a 1 1 1 0 1 45 0
-           v 58 6 -6 6 -6 6 -6 6 -6 6"></path><path class="obstacles__ball-trail" d="m 320 25
+           v 58 6 -6 6 -6 6 -6 6 -6 6"></path><path class="obstacles__ball-trail svelte-1obepk2" d="m 320 25
               c 120 10 80 -30 125 40
            c -30 -5  -40 -5  -55 25
            h -110
@@ -61,23 +103,23 @@
            v 35
            h 67
            a 1 1 1 0 1 45 0
-           v 64 -6 6 -6 6 -6 6 -6 6 -6"></path><path class="obstacles__saw svelte-13qgbeb" style="stroke:var(--color-font-primary);" d="m 255 83
-                   v 6.75 
+           v 64 -6 6 -6 6 -6 6 -6 6 -6"></path><path class="obstacles__saw svelte-1obepk2" style="stroke:var(--color-font-primary);" d="m 255 83
+                   v 6.75
                    h -15.75
-                   l 4.5 		4.5
-                   l -11.25 	11.25
+                   l 4.5 4.5
+                   l -11.25 11.25
                    h 6.75
                    v 15.75
-                   l 4.5 		-4.5 
-                   11.25 	11.25
+                   l 4.5 -4.5
+                   11.25 11.25
                    v -6.75
                    h 15.75
-                   l -4.5 		-4.5 
-                   11.25 	-11.25
+                   l -4.5 -4.5
+                   11.25 -11.25
                    h -6.75
                    v -15.75
-                   l -4.5 		4.5 z
-          "></path><path class="obstacles__pinxos" style="stroke:var(--color-font-primary);" d="
+                   l -4.5 4.5 z
+          "></path><path class="obstacles__pinxos svelte-1obepk2" style="stroke:var(--color-font-primary);" d="
         m 402 159
         l 5 -15
           5 15
@@ -89,7 +131,7 @@
           5 15
           5 -15
           5 15
-    "></path><path class="obstacles__balista" style="stroke:var(--color-font-primary);" d="
+    "></path><path class="obstacles__balista svelte-1obepk2" style="stroke:var(--color-font-primary);" d="
         m 365 156
         v -5
         h -2
@@ -99,102 +141,99 @@
         h 15
         v 15
         z
-    "></path><path class="obstacles__bolt" style="stroke:var(--color-font-primary);" d=" m 380 148.5
-                h -210"></path><path class="obstacles__hr svelte-13qgbeb" d="
+    "></path><path class="obstacles__bolt svelte-1obepk2" style="stroke:var(--color-font-primary);" d=" m 380 148.5
+                h -210"></path><path class="obstacles__hr svelte-1obepk2" d="
                 M 315 203
                 q -6 1 -6 10
                 c -100 25 -250 -40 -300 10
                 M 325 203
                 q  6 1  6 10
                 c  100 25  250 -40  300 10
-            "></path></g></svg> <h1 class="main-section__title svelte-1cz8zhj" data-svelte-h="svelte-1vkox80">Formación con metodologías ágiles</h1> <blockquote class="svelte-1cz8zhj" data-svelte-h="svelte-100aq54">La agilidad no se trata de rapidez, sino de la capacidad
-		para adaptarse a nuevos requisitos y sortear obstáculos</blockquote> <div class="main-section__feature-list svelte-1cz8zhj"><article class="feature svelte-r9jcja"><img class="feature__icon svelte-r9jcja" src="/junior.svg" alt="Icono de la sección Clases particulares"> <h1 class="feature__title svelte-r9jcja">Clases particulares</h1> <p class="feature__content svelte-r9jcja">Para estudiantes de todos los niveles y para juniors recién 
-			incorporados al mundo profesional, formando y dando soporte en su
-			trabajo mediante <strong class="svelte-1cz8zhj" data-svelte-h="svelte-sdcs7q">pairing</strong>.</p> </article> <article class="feature svelte-r9jcja"><img class="feature__icon svelte-r9jcja" src="/teamwork.svg" alt="Icono de la sección Soporte a equipos"> <h1 class="feature__title svelte-r9jcja">Soporte a equipos</h1> <p class="feature__content svelte-r9jcja">Me integro con equipos que necesitan tecnologías o metodologías con
-			las que tengo experiencia, enfocado en los <strong class="svelte-1cz8zhj" data-svelte-h="svelte-1n3mw7l">principios ágiles</strong>
-			y adaptándome a sus objetivos.</p> </article> <article class="feature svelte-r9jcja feature--one-column"><img class="feature__icon svelte-r9jcja" src="/book.svg" alt="Icono de la sección Formación al profesorado y dirección académica"> <h1 class="feature__title svelte-r9jcja">Formación al profesorado y dirección académica</h1> <p class="feature__content svelte-r9jcja">Acorde al estado del arte y el mercado laboral, para particulares o 
-			para centros que buscan ampliar itinerarios, docencia o coordinación
-			académica en tecnologías de la información.</p> </article></div></section> <section class="main-section main-section--consulting svelte-1cz8zhj"><div class="dianas svelte-1c12kqt"><svg class="path diana svelte-1c12kqt" data-n="0" viewBox="0 0 110 110"><g><path d="M 55 105
+            "></path></g></svg><!----> <h1 class="main-section__title svelte-w3rdjs">Formación ágil para empresas</h1> <div class="main-section__feature-list svelte-w3rdjs"><article class="feature svelte-prt8av"><img class="feature__icon svelte-prt8av" src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='210'%20height='210'%20viewBox='0%200%20210%20210'%20version='1.1'%20id='svg871'%20inkscape:version='1.3%20(0e150ed6c4,%202023-07-21)'%20sodipodi:docname='junior.svg'%20xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape'%20xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:svg='http://www.w3.org/2000/svg'%20xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%20xmlns:cc='http://creativecommons.org/ns%23'%20xmlns:dc='http://purl.org/dc/elements/1.1/'%3e%3cdefs%20id='defs865'%20/%3e%3csodipodi:namedview%20id='base'%20pagecolor='%23ffffff'%20bordercolor='%23666666'%20borderopacity='1.0'%20inkscape:pageopacity='0.0'%20inkscape:pageshadow='2'%20inkscape:zoom='1.4'%20inkscape:cx='-32.5'%20inkscape:cy='26.785714'%20inkscape:document-units='mm'%20inkscape:current-layer='layer1'%20inkscape:document-rotation='0'%20showgrid='false'%20units='px'%20fit-margin-top='0'%20fit-margin-left='0'%20fit-margin-right='0'%20fit-margin-bottom='0'%20inkscape:window-width='1920'%20inkscape:window-height='1013'%20inkscape:window-x='-9'%20inkscape:window-y='-9'%20inkscape:window-maximized='1'%20inkscape:showpageshadow='2'%20inkscape:pagecheckerboard='0'%20inkscape:deskcolor='%23d1d1d1'%20/%3e%3cmetadata%20id='metadata868'%3e%3crdf:RDF%3e%3ccc:Work%20rdf:about=''%3e%3cdc:format%3eimage/svg+xml%3c/dc:format%3e%3cdc:type%20rdf:resource='http://purl.org/dc/dcmitype/StillImage'%20/%3e%3c/cc:Work%3e%3c/rdf:RDF%3e%3c/metadata%3e%3cg%20inkscape:label='Capa%201'%20inkscape:groupmode='layer'%20id='layer1'%20transform='translate(-98.636295,-41.842909)'%3e%3cpath%20fill='%23FFCC4D'%20d='m%20275.11794,134.3502%20c%200.12429,-1.68745%200.26041,-3.37491%200.26041,-5.09176%200,-34.94263%20-19.27638,-64.547237%20-52.84786,-70.162287%20-2.03785,-1.426416%20-1.92117,-7.275708%20-4.86818,-8.821688%20-1.95292,-1.024486%20-7.23416,2.107002%20-8.23345,1.500935%20-23.71465,-14.382758%20-6.84471,7.870012%20-16.9375,7.98571%20-33.56556,5.61505%20-59.16441,34.5487%20-59.16441,69.49721%200,1.71685%200.13613,3.40431%200.26043,5.09764%20-2.85287,38.80556%20-10.85637,90.70586%2070.76528,95.76153%2068.48741,4.24213%2073.61814,-56.95585%2070.76528,-95.76729%20z'%20id='path4'%20style='display:inline;fill:none;stroke:%23f56738;stroke-width:5.89919;stroke-opacity:1'%20sodipodi:nodetypes='cscsscscsc'%20inkscape:label='body'%20/%3e%3cpath%20fill='%23F4900C'%20d='m%20224.23134,123.76558%20c%200,7.08561%20-7.2981,8.55233%20-16.30253,8.55233%20-9.00443,0%20-16.30255,-1.46672%20-16.30255,-8.55233%20a%2016.302545,12.828493%200%201%201%2032.60508,0%20z'%20id='path6'%20style='fill:%23f56738;fill-opacity:1;stroke:%23f56738;stroke-width:4.82053;stroke-opacity:1'%20inkscape:label='beak'%20/%3e%3ccircle%20fill='%23662113'%20cx='246.98062'%20cy='104.06699'%20id='circle10'%20style='fill:%23f56738;fill-opacity:1;stroke:none;stroke-width:3.73776;stroke-opacity:1'%20inkscape:label='reye'%20r='5.606647'%20/%3e%3ccircle%20fill='%23662113'%20cx='169.68446'%20cy='104.06699'%20id='circle10-1'%20style='fill:%23f56738;fill-opacity:1;stroke:none;stroke-width:3.73776;stroke-opacity:1'%20inkscape:label='leye'%20r='5.606647'%20/%3e%3cpath%20id='path1496'%20style='fill:%23f56738;fill-opacity:1;stroke:none;stroke-width:5.27105;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1'%20inkscape:label='huevo'%20d='m%20292.13282,162.83642%20-15.30071,-12.08481%20-12.01088,16.44895%20-22.64544,-18.36185%20-11.93181,16.77331%20-15.5338,-15.6365%20-13.56278,24.65418%20-14.54076,-21.25455%20-12.86602,15.65026%20-16.26062,-13.17726%20-18.39442,24.54754%20-9.27829,-20.09201%20-12.59957,10.41476%20c%200.0181,0.25169%200.0229,0.49861%200.0426,0.75089%204.20306,53.82962%2053.12936,79.15652%2094.18748,78.07616%2040.48185,-1.0652%2083.64732,-40.06226%2080.69505,-86.70907%20z'%20sodipodi:nodetypes='ccccccccccccccssc'%20/%3e%3c/g%3e%3c/svg%3e" alt="Icono de la sección Adaptación profesional"/> <h1 class="feature__title svelte-prt8av">Adaptación profesional</h1> <p class="feature__content svelte-prt8av"><!----><!---->Tengo afinidad y facilidad para el análisis y la simplificación de arquitecturas,
+            ayudando a <strong class="svelte-w3rdjs">reclutar</strong> y <strong class="svelte-w3rdjs">adaptar a nuevos profesionales</strong> en cualquier entorno.<!----></p></article><!----> <article class="feature svelte-prt8av"><img class="feature__icon svelte-prt8av" src="/_app/immutable/assets/teamwork.40rYH865.svg" alt="Icono de la sección Soporte a equipos"/> <h1 class="feature__title svelte-prt8av">Soporte a equipos</h1> <p class="feature__content svelte-prt8av"><!----><!---->Me integro con equipos que necesitan tecnologías o metodologías con
+            las que tengo experiencia, enfocado en los <strong class="svelte-w3rdjs">principios ágiles</strong> y adaptándome a sus objetivos.<!----></p></article><!----> <article class="feature svelte-prt8av feature--one-column"><img class="feature__icon svelte-prt8av" src="/_app/immutable/assets/book.CjeoIrZE.svg" alt="Icono de la sección Formación al profesorado y dirección académica"/> <h1 class="feature__title svelte-prt8av">Formación al profesorado y dirección académica</h1> <p class="feature__content svelte-prt8av"><!----><!---->Acorde al estado del arte y el mercado laboral, para particulares o
+            para centros que buscan ampliar itinerarios, docencia o coordinación
+            académica en tecnologías de la información.<!----></p></article><!----></div></section> <section class="main-section main-section--consulting svelte-w3rdjs"><div class="dianas svelte-18k4d6b"><!--[--><svg class="path diana svelte-18k4d6b" data-n="0" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg><svg class="path diana svelte-1c12kqt" data-n="1" viewBox="0 0 110 110"><g><path d="M 55 105
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><svg class="path diana svelte-18k4d6b" data-n="1" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg><svg class="path diana svelte-1c12kqt" data-n="2" viewBox="0 0 110 110"><g><path d="M 55 105
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><svg class="path diana svelte-18k4d6b" data-n="2" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg><svg class="path diana svelte-1c12kqt" data-n="3" viewBox="0 0 110 110"><g><path d="M 55 105
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><svg class="path diana svelte-18k4d6b" data-n="3" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg><svg class="path diana svelte-1c12kqt" data-n="4" viewBox="0 0 110 110"><g><path d="M 55 105
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><svg class="path diana svelte-18k4d6b" data-n="4" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg><svg class="path diana svelte-1c12kqt" data-n="5" viewBox="0 0 110 110"><g><path d="M 55 105
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><svg class="path diana svelte-18k4d6b" data-n="5" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg><svg class="path diana svelte-1c12kqt" data-n="6" viewBox="0 0 110 110"><g><path d="M 55 105
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><svg class="path diana svelte-18k4d6b" data-n="6" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg><svg class="path diana svelte-1c12kqt" data-n="7" viewBox="0 0 110 110"><g><path d="M 55 105
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><svg class="path diana svelte-18k4d6b" data-n="7" viewBox="0 0 110 110"><g><path d="M 55 105
                     a 50 50 0 0 0 0 -100
                     a 50 50 0 0 0 0 100
-                    
+
                     M 55 80
                     a 25 25 0 0 0 0 -50
                     a 25 25 0 0 0 0 50
-                    
+
                     M 55 60
                     a 5 5 0 0 0 0 -10
-                    a 5 5 0 0 0 0 10  " class="svelte-1c12kqt"></path></g></svg></div> <svg class="path bigote svelte-zvkn0p" viewBox="0 0 640 40"><g><path d="
+                    a 5 5 0 0 0 0 10  " class="svelte-18k4d6b"></path></g></svg><!--]--></div> <svg class="path bigote svelte-c2kyh" viewBox="0 0 640 40"><g><path d="
             M 315 10
             q -6 1 -6 10
             c -100 25 -250 -40 -300 10
@@ -207,17 +246,15 @@
             a 1 1 0 0 0 0 10
             m 0 -6.5
             a 1 1 0 0 0 0 3
-            a 1 1 0 0 0 0 -3"></path></g></svg> <h1 class="main-section__title svelte-1cz8zhj" data-svelte-h="svelte-1o5dpld">Consultoría</h1> <div class="main-section__feature-list svelte-1cz8zhj"><article class="feature svelte-r9jcja"><img class="feature__icon svelte-r9jcja" src="/strategy.svg" alt="Icono de la sección Análisis y estrategia"> <h1 class="feature__title svelte-r9jcja">Análisis y estrategia</h1> <p class="feature__content svelte-r9jcja">Análisis de requisitos y viabilidad técnica de proyectos.
-			Planificación de estrategias de desarrollo y metodología,
-			comparación y selección tecnológica, arquitectura y diseño.</p> </article> <article class="feature svelte-r9jcja"><img class="feature__icon svelte-r9jcja" src="/audit.svg" alt="Icono de la sección Auditoría y monitorización"> <h1 class="feature__title svelte-r9jcja">Auditoría y monitorización</h1> <p class="feature__content svelte-r9jcja">Análisis de diseño
-			<small class="svelte-1cz8zhj" data-svelte-h="svelte-ajritx">(acoplamiento, cohesión, testabilidad...)</small>, 
-			técnico <small class="svelte-1cz8zhj" data-svelte-h="svelte-x1nxia">(seguridad, rendimiento, monitorización...)</small> 
-			y humano <small class="svelte-1cz8zhj" data-svelte-h="svelte-s246t6">(productividad, comunicación, motivación...)</small>,
-			mejorando procesos y toma de decisiones.</p> </article> <article class="feature svelte-r9jcja feature--one-column"><img class="feature__icon svelte-r9jcja" src="/harmony.svg" alt="Icono de la sección Armonización de equipos"> <h1 class="feature__title svelte-r9jcja">Armonización de equipos</h1> <p class="feature__content svelte-r9jcja">Ayudo a <strong class="svelte-1cz8zhj" data-svelte-h="svelte-9kzzs5">armonizar equipos</strong>, ampliando de manera
-			accesible la formación técnica en <strong class="svelte-1cz8zhj" data-svelte-h="svelte-1pp8xmx">gestión de requisitos y 
-			objetivos</strong> de directivos y las <strong class="svelte-1cz8zhj" data-svelte-h="svelte-yq79rc">habilidades de 
-			análisis</strong> de los desarrolladores, mejorando la comunicación
-			y la calidad de desarrollo.</p> </article></div></section> <section class="main-section main-section--skills svelte-1cz8zhj"><svg class="path" viewBox="0 0 640 280"><g><path class="road" d="m 320,0
+            a 1 1 0 0 0 0 -3"></path></g></svg><!----><!----> <h1 class="main-section__title svelte-w3rdjs">Consultoría</h1> <div class="main-section__feature-list svelte-w3rdjs"><article class="feature svelte-prt8av"><img class="feature__icon svelte-prt8av" src="/_app/immutable/assets/strategy.D8XxOYpy.svg" alt="Icono de la sección Análisis y estrategia"/> <h1 class="feature__title svelte-prt8av">Análisis y estrategia</h1> <p class="feature__content svelte-prt8av"><!----><!---->Análisis de requisitos y viabilidad técnica de proyectos.
+            Planificación de estrategias de desarrollo y metodología,
+            comparación y selección tecnológica, arquitectura y diseño.<!----></p></article><!----> <article class="feature svelte-prt8av"><img class="feature__icon svelte-prt8av" src="/_app/immutable/assets/audit.37UUtHhj.svg" alt="Icono de la sección Auditoría y monitorización"/> <h1 class="feature__title svelte-prt8av">Auditoría y monitorización</h1> <p class="feature__content svelte-prt8av"><!----><!---->Análisis de diseño <small class="svelte-w3rdjs">(acoplamiento, cohesión, testabilidad...)</small>,
+            técnico <small class="svelte-w3rdjs">(seguridad, rendimiento, monitorización...)</small> y humano <small class="svelte-w3rdjs">(formación, comunicación, motivación...)</small>,
+            mejorando procesos y toma de decisiones.<!----></p></article><!----> <article class="feature svelte-prt8av feature--one-column"><img class="feature__icon svelte-prt8av" src="/_app/immutable/assets/harmony.Cl0Ei0FY.svg" alt="Icono de la sección Armonización de equipos"/> <h1 class="feature__title svelte-prt8av">Armonización de equipos</h1> <p class="feature__content svelte-prt8av"><!----><!---->Ayudo a <strong class="svelte-w3rdjs">armonizar equipos</strong>, ampliando de manera
+            accesible la formación técnica en <strong class="svelte-w3rdjs">gestión de requisitos y
+            objetivos</strong> de directivos y las <strong class="svelte-w3rdjs">habilidades de
+            análisis</strong> de los desarrolladores, mejorando la comunicación
+            y la calidad de desarrollo.<!----></p></article><!----></div></section> <section class="main-section main-section--skills svelte-w3rdjs"><svg class="path" viewBox="0 0 640 280"><g><path class="road" d="m 320,0
             l 0 255
             a 1 1 1 0 0 0 10
               1 1 1 0 0 0 -10"></path><path class="left-road" d=" m 320 0
@@ -240,64 +277,71 @@
                 -81 50
                m 81 -50
                l -50 81
-               
+
                m -76 -6
                l -75 -75
                   81 50
                 m -81 -50
                l 50 81
-               
+
                m  -50 -81
                m  73 127
                l -75 75
                   81 -50
                 m -81 50
                 l 50 -81
-                
+
                m  78 6
                l  75 75
                   -81 -50
                 m 81 50
-                l -50 -81 "></path></g></svg> <h1 data-svelte-h="svelte-1g2lfh8">Mi camino reciente</h1> <p data-svelte-h="svelte-xou7pv">Aquellos conocimientos y tecnologías que he utilizado o impartido en los últimos 4 años.
-	Tengo un profundo interés personal o mucha experiencia con 
-	lo marcado con <span class="expertise-mark svelte-1cz8zhj">★</span>.</p> <section class="skills-list svelte-1ukjcp5"><h1 class="skills-list__title svelte-1ukjcp5">Front end, back end, full stack y SGBD</h1> <ul class="svelte-1ukjcp5"><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Vue<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Nuxt<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Svelte<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->SvelteKit<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->React<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Next<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Sass/SCSS<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Node<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Express<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Ruby on Rails<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->ReactiveX<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Socket.IO<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Electron<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Tauri<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Django<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Symfony<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Laravel<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->MySQL<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->MariaDB<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->PostgreSQL<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->SQLite<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->MongoDB<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Redis<!-- HTML_TAG_END --> </li></ul> </section> <section class="skills-list svelte-1ukjcp5"><h1 class="skills-list__title svelte-1ukjcp5">Lenguajes principales</h1> <ul class="svelte-1ukjcp5"><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->HTML<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->CSS<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->JavaScript<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->TypeScript<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Python<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Java<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->C#<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->PHP<!-- HTML_TAG_END --> </li></ul> </section> <section class="skills-list svelte-1ukjcp5"><h1 class="skills-list__title svelte-1ukjcp5">Técnicas, disciplinas, metodologías y filosofías</h1> <ul class="svelte-1ukjcp5"><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Test-Driven Development<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Behavior-Driven Development<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Event-Driven Architecture<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Developer Experience<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Domain-Driven Design<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Integración continua<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->eXtreme Programming<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Minimalismo<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Software Libre<!-- HTML_TAG_END --> </li></ul> </section> <section class="skills-list svelte-1ukjcp5"><h1 class="skills-list__title svelte-1ukjcp5">Administración de sistemas, virtualización, contenerización y DevOps</h1> <ul class="svelte-1ukjcp5"><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START --> GNU/Linux <small>(RHEL y Debian)</small><!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Bash<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Docker<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Github Actions<!-- HTML_TAG_END --> </li></ul> </section> <section class="skills-list svelte-1ukjcp5"><h1 class="skills-list__title svelte-1ukjcp5">Gráficos, renderizado, videojuegos, hardware y frikadas</h1> <ul class="svelte-1ukjcp5"><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->PixiJS<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->Canvas<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->P5.js<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Three.js<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Babylon.js<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->OpenGL<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->WebGL2<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5 skills-list__item--expertise"><!-- HTML_TAG_START -->WebGPU<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->Blender<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->lwjgl<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->MC6809<!-- HTML_TAG_END --> </li><li class="skills-list__item svelte-1ukjcp5"><!-- HTML_TAG_START -->MIPS RXXXX <small>(PSP & Nintendo 64)</small><!-- HTML_TAG_END --> </li></ul> </section></section> <section class="main-section main-section--experiences svelte-1cz8zhj"><div class="heart-hands svelte-1g6aiia"><img class="heart-hands__left svelte-1g6aiia" src="/left-hand.svg" alt=""> <img class="heart-hands__right svelte-1g6aiia" src="/right-hand.svg" alt=""> </div> <h1 data-svelte-h="svelte-1557lak">Personas sin miedo a agradecer</h1> <div class="experiences svelte-144br61" style="height: 130px;"><article data-n="0" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">Mantengo contacto con Álex para consultar dudas 
+                l -50 -81 "></path></g></svg><!----> <h1 class="svelte-w3rdjs">Mi camino</h1> <p>Aquellos conocimientos y tecnologías que he utilizado o impartido por alguna temporada.
+    Tengo un profundo interés personal o mucha experiencia con
+    lo marcado con <span class="expertise-mark svelte-w3rdjs">★</span>.</p> <section class="skills-list svelte-1b8s1tf"><h1 class="skills-list__title svelte-1b8s1tf">Front end, back end, full stack y SGBD</h1> <ul class="svelte-1b8s1tf"><!--[--><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Vue<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Nuxt<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Svelte<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->SvelteKit<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->React<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Next<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Sass/SCSS<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Node<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Express<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Ruby on Rails<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->ReactiveX<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Socket.IO<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Electron<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Tauri<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Django<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Symfony<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Laravel<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->MySQL<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->MariaDB<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->PostgreSQL<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->SQLite<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->MongoDB<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Redis<!----></li><!--]--></ul></section><!----> <section class="skills-list svelte-1b8s1tf"><h1 class="skills-list__title svelte-1b8s1tf">Lenguajes principales</h1> <ul class="svelte-1b8s1tf"><!--[--><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->HTML<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->CSS<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->JavaScript<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->TypeScript<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Python<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Java<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->C#<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->PHP<!----></li><!--]--></ul></section><!----> <section class="skills-list svelte-1b8s1tf"><h1 class="skills-list__title svelte-1b8s1tf">Técnicas, disciplinas, metodologías y filosofías</h1> <ul class="svelte-1b8s1tf"><!--[--><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Test-Driven Development<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Behavior-Driven Development<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Event-Driven Architecture<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Developer Experience<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Domain-Driven Design<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Integración continua<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->eXtreme Programming<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Minimalismo<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Software Libre<!----></li><!--]--></ul></section><!----> <section class="skills-list svelte-1b8s1tf"><h1 class="skills-list__title svelte-1b8s1tf">Administración de sistemas, virtualización, contenerización y DevOps</h1> <ul class="svelte-1b8s1tf"><!--[--><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!----> GNU/Linux <small>(RHEL y Debian)</small><!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Bash<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Docker<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Github Actions<!----></li><!--]--></ul></section><!----> <section class="skills-list svelte-1b8s1tf"><h1 class="skills-list__title svelte-1b8s1tf">Gráficos, renderizado, videojuegos, hardware y frikadas</h1> <ul class="svelte-1b8s1tf"><!--[--><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->PixiJS<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Canvas<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->P5.js<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->Three.js<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Babylon.js<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->OpenGL<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->WebGL2<!----></li><li class="skills-list__item svelte-1b8s1tf skills-list__item--expertise"><!---->WebGPU<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->Blender<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->lwjgl<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->MC6809<!----></li><li class="skills-list__item svelte-1b8s1tf"><!---->MIPS RXXXX <small>(PSP & Nintendo 64)</small><!----></li><!--]--></ul></section><!----></section> <section class="main-section main-section--experiences svelte-w3rdjs"><div class="heart-hands svelte-semj7u"><img class="heart-hands__left svelte-semj7u" src="/_app/immutable/assets/left-hand.CVUMc3qQ.svg" alt=""/> <img class="heart-hands__right svelte-semj7u" src="/_app/immutable/assets/right-hand.Daib4bBk.svg" alt=""/></div><!----> <h1 class="svelte-w3rdjs">Personas sin miedo a agradecer</h1> <div style="--elements: 7;" class="experiences svelte-1lqo5iy"><!--[--><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Mantengo contacto con Álex para consultar dudas 
             técnicas para las que nadie en mi trabajo parece tener respuesta. 
-			Nunca deja de sorprenderme la calidad de su investigación y sus soluciones</blockquote> <address class="experiences__author svelte-144br61">Miriam Sáez</address> </article><article data-n="1" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">Los tres meses que contamos con Álex en nuestro equipo 
-            marcaron un antes y un después. Más allá de conocimientos, nos trajo
-            mucha motivación y una nueva forma de ver nuestra profesión</blockquote> <address class="experiences__author svelte-144br61">Raúl Santana</address> </article><article data-n="2" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">Conocí a Álex buscando clases de programación para mi hijo. 
-			Han pasado tres años, mi hijo ya tiene un buen trabajo y aún sigue 
-			disfrutando de al menos una clase a la semana</blockquote> <address class="experiences__author svelte-144br61">Karlos Elordi Etxebarrieta</address> </article><article data-n="3" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">Álex me ha acompañado en mi formación desde que estaba en
-			3º de carrera hasta hoy. Trabajo como única ingeniera en un equipo
-			no técnico, y su papel como mentor externo ha sido vital para mí</blockquote> <address class="experiences__author svelte-144br61">Carla Salgado</address> </article><article data-n="4" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">Soy un terrible comunicador, y lo que más me gustó de Álex 
-			es su empatía, parecía entenderme y conectar al 120%, con pocas 
-			palabras sabía qué necesitaba y sus implicaciones</blockquote> <address class="experiences__author svelte-144br61">David Hernández Martín</address> </article><article data-n="5" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">Aunque solo solicitamos formación y sugerencia para 
-			refactorizar una base gigante de código, junto a Álex descubrimos
-			todo un flujo de trabajo que nos aportaba infinita paz mental</blockquote> <address class="experiences__author svelte-144br61">Rayco Fernández y José Segura</address> </article><article data-n="6" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">No soy cliente ni alumno de Álex, pero sí he tenido el
-			placer de estudiar y trabajar junto a él. En mi vida he sentido que
-			he avanzado más humana y profesionalmente</blockquote> <address class="experiences__author svelte-144br61">Samuel Santana</address> </article><article data-n="7" class="experiences__item svelte-144br61"><blockquote class="experiences__quote svelte-144br61">Nunca había conocido a alguien tan transparente
-			y sin miedo a decir que no tiene ni pajorera idea de un tema. Tampoco
-			a alguien que se adaptara, aprendiera y dominara una arquitectura 
-			tan rápidamente</blockquote> <address class="experiences__author svelte-144br61">Agustín Artíles de la Nuez</address> </article> </div></section> <section class="main-section main-section--contact svelte-1cz8zhj" data-svelte-h="svelte-1hfd539"><h1 class="main-section__title svelte-1cz8zhj">Contacto</h1> <p>La forma más sencilla de contactar conmigo es por correo electrónico.
-		No hay reglas, escríbeme como quieras, cuando quieras y para lo que quieras.</p> <p><a href="mailto:contacto@alexvega.net">contacto@alexvega.net</a></p> </section></main> <footer class="svelte-11fn94e" data-svelte-h="svelte-1qocme">Alex Vega © 2024
-</footer> 
+            Nunca deja de sorprenderme la calidad de su investigación y sus soluciones</blockquote> <address class="experiences__author svelte-1lqo5iy">Miriam Sáez</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Conocí a Álex buscando clases de programación para mi hijo. 
+            Han pasado tres años, mi hijo ya tiene un buen trabajo y aún sigue 
+            disfrutando de al menos una clase a la semana</blockquote> <address class="experiences__author svelte-1lqo5iy">Karlos Elordi Etxebarrieta</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Álex me ha acompañado en mi formación desde que estaba en
+            3º de carrera hasta hoy. Trabajo como única ingeniera en un equipo
+            no técnico, y su papel como mentor externo ha sido vital para mí</blockquote> <address class="experiences__author svelte-1lqo5iy">Carla Salgado</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Soy un terrible comunicador, y lo que más me gustó de Álex 
+            es su empatía, parecía entenderme y conectar al 120%, con pocas 
+            palabras sabía qué necesitaba y sus implicaciones</blockquote> <address class="experiences__author svelte-1lqo5iy">David Hernández Martín</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Aunque solo solicitamos formación y sugerencia para 
+            refactorizar una base gigante de código, junto a Álex descubrimos
+            todo un flujo de trabajo que nos aportaba infinita paz mental</blockquote> <address class="experiences__author svelte-1lqo5iy">Rayco Fernández y José Segura</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Nunca había conocido a alguien tan transparente
+            y sin miedo a decir que no tiene ni pajorera idea de un tema. Tampoco
+            a alguien que se adaptara, aprendiera y dominara una arquitectura 
+            tan rápidamente</blockquote> <address class="experiences__author svelte-1lqo5iy">Agustín Artíles de la Nuez</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">No soy cliente ni alumno de Álex, pero sí he tenido el
+            placer de estudiar y trabajar junto a él. En mi vida he sentido que
+            he avanzado más humana y profesionalmente</blockquote> <address class="experiences__author svelte-1lqo5iy">Samuel Santana</address></article><!--]--></div><!----> <div style="--elements: 7;" class="experiences svelte-1lqo5iy"><!--[--><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Pensé que Álex hacía que todo pareciera fácil, pero no es eso. 
+            Lo que hace es que todo parezca disfrutable, es un maestro quitando
+            ruido y mostrando lo bonito de esta profesión</blockquote> <address class="experiences__author svelte-1lqo5iy">Francis Pérez Falcón</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Muchas gracias crack, pero no voy a escribirte 200 caracteres. 
+            Soy ingeniero, no escritor. Con cariño ❤</blockquote> <address class="experiences__author svelte-1lqo5iy">Jesús Arauste</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Cuando alguien sonríe auditando código bien hecho sabes 
+            que está disfrutando su trabajo.
+            Su mayor cualidad es cómo transmite esa pasión al equipo</blockquote> <address class="experiences__author svelte-1lqo5iy">Richard Clarke</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Hice mis prácticas externas con Álex. Solo en el primer mes
+            con él aprendí más que en 5 años en la universidad 🤦‍♂️</blockquote> <address class="experiences__author svelte-1lqo5iy">Bryan Hernández Gil</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Acudí a Álex con un problema fuera de su ámbito, no pudo 
+            ayudarme con él, pero me dio algunos consejos que cambiaron 
+            mi enfoque para muy bien. Agradecida eternamente</blockquote> <address class="experiences__author svelte-1lqo5iy">Natalia López</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Entré en esto por hobby, y cuando se convirtió en mi
+            trabajo empecé a perderle el gusto. Álex me ayudó a renovar
+            los ánimos y a descubrir un camino de innovación</blockquote> <address class="experiences__author svelte-1lqo5iy">Álvaro Rubio Castellano</address></article><article class="experiences__item svelte-1lqo5iy" style="left: 0px; cursor: grab;"><blockquote class="experiences__quote svelte-1lqo5iy">Como profesor de programación, para mí es vital impartir conocimientos 
+            actualizados a mi alumnado, pero no siempre es fácil seguir el ritmo al estado del arte. 
+            Álex es clave en mi trabajo</blockquote> <address class="experiences__author svelte-1lqo5iy">Ramón Jiménez</address></article><!--]--></div><!----> <div class="feedback svelte-w3rdjs"><p class="svelte-w3rdjs">¿Tú tampoco tienes miedo a agradecer? <a href="#mail" class="svelte-w3rdjs">🧡 Házmelo saber <small class="svelte-w3rdjs">(máx. 200 caracteres)</small> 🧡</a></p></div></section> <section class="main-section main-section--contact svelte-w3rdjs"><h1 id="contacto" class="main-section__title svelte-w3rdjs">Contacto</h1> <p>La forma más sencilla de contactar conmigo es por correo electrónico.
+        No hay reglas, escríbeme como quieras, cuando quieras y para lo que quieras.</p> <p><a id="mail" href="mailto:contacto@alexvega.net">contacto@alexvega.net</a></p></section><!----><!--]--><!----></main> <footer class="svelte-1pvwjww">Alexander Vega © 2026</footer><!----><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_19dpmjh = {
+					__sveltekit_hm0bcj = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
-					const data = [null,null];
-
 					Promise.all([
-						import("./_app/immutable/entry/start.DtHG9GUL.js"),
-						import("./_app/immutable/entry/app.C2FvGGAl.js")
+						import("./_app/immutable/entry/start.Dys29Zju.js"),
+						import("./_app/immutable/entry/app.DZhwLGq6.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 2],
-							data,
+							node_ids: [0, 4, 15],
+							data: [null,null,null],
 							form: null,
 							error: null
 						});

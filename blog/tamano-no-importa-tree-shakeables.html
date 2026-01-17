@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link href="../_app/immutable/assets/4.ClJVwGEW.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/styles.BI8UiRY9.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/InfoBox.DvHn1tL4.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Code.CKCio-tz.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Image.07fnLzEs.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/ColumnsContainer.B6dEa0-C.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/utils.BEXRWt4v.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/18.BWf-Qbmh.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.Dys29Zju.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/wfScolaD.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/k_-SACZf.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BduZyM7k.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CUZXlhwM.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B6loGvSK.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CIWVgPg3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D15U5vI1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D4COoUHs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Bkwfa0mc.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.DZhwLGq6.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BqxltznQ.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/kPmmzQJp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DzBwx_jc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Km-0Pu8Z.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Cpacy8W0.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.CgfhGROC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BTGqeDDF.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CqkleIqs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C-pAAiiO.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BQ15y-oL.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CgVzVCqa.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/4.CL00ZXRP.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BSOZMg1Q.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CJDWlBBp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Wkx9sMwb.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C0NDRyn_.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/69_IOA4Y.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/611aVr9j.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CUg5QR1x.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/6.LhtG8EnN.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIabmNBn.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/18.CWU06UoW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dg0HV3ef.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CNfEwzh9.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DlsCqhfG.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dav-uZcp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NVWwRTYa.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/RmmjoSf4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/0WgYKyNH.js"><!--[--><!--[--><!--]--> <!--[--><meta name="robots" content="index,follow"/><!--]--> <!--[--><meta name="description" content="Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript."/><!--]--> <!--[--><link rel="canonical" href="https://alexvega.net/blog/tamano-no-importa-tree-shakeables"/><!--]--> <!--[--><meta name="keywords" content="tree-shake, side-effects, biblioteca"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta name="twitter:card" content="summary"/><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:title" content="Tamaños que no importan: tree-shakeables"/><!--]--> <!--[--><meta name="twitter:description" content="Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript."/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:image" content="https://alexvega.net/_app/immutable/assets/tree-shaking.BVwql0Kq.jpg"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta property="og:url" content="https://alexvega.net/blog/tamano-no-importa-tree-shakeables"/><!--]--> <!--[!--><!--]--> <!--[--><meta property="og:title" content="Tamaños que no importan: tree-shakeables"/><!--]--> <!--[--><meta property="og:description" content="Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript."/><!--]--> <!--[--><!--[--><meta property="og:image" content="https://alexvega.net/_app/immutable/assets/tree-shaking.BVwql0Kq.jpg"/> <!--[--><meta property="og:image:alt" content="Alex Vega site logo"/><!--]--> <!--[--><meta property="og:image:width" content="1280"/><!--]--> <!--[--><meta property="og:image:height" content="720"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--[--><link rel="stylesheet" href="/blog.css"/><!--]--><title>Tamaños que no importan: tree-shakeables</title>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="loading">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents"><!--[--><!--[--><!----><!--[--><!----><!----> <!--[--><div class="nav-fade-overlay svelte-oabbd1"></div> <nav class="main-nav svelte-oabbd1"><a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/">Inicio</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/#contacto">Contacto</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/blog">Blog</a> <button class="main-nav__button svelte-oabbd1" tabindex="1" aria-busy="true" title="Desplegar menú de navegación" aria-label="Desplegar menú de navegación"></button></nav><!--]--> <!--[--><div class="loader svelte-14xshfi"><div class="loader__spinner svelte-14xshfi"></div></div><!--]--> <main class="svelte-1pvwjww main--loading"><!--[--><!----><!----><!----><!--[--><div class="cover svelte-s7hptc"><!--[--><div class="cover__author svelte-s7hptc">Fotografía cortesía de Edoardo Botez 🧡</div><!--]--> <!--[!--><picture><!--[--><source srcset="/_app/immutable/assets/tree-shaking.Dm5PN7LS.avif 1x, /_app/immutable/assets/tree-shaking.DRHr0SW_.avif 2x" type="image/avif"/><source srcset="/_app/immutable/assets/tree-shaking.rN-B0IuQ.webp 1x, /_app/immutable/assets/tree-shaking.C6f3tNrs.webp 2x" type="image/webp"/><source srcset="/_app/immutable/assets/tree-shaking.DwjQOLAz.jpg 1x, /_app/immutable/assets/tree-shaking.BVwql0Kq.jpg 2x" type="image/jpeg"/><!--]--> <img src="/_app/immutable/assets/tree-shaking.BVwql0Kq.jpg" alt="Portada del post" class="cover__img svelte-s7hptc" width="1280" height="720"/></picture><!--]--></div><!--]--> <article class="post svelte-1js559p" style="margin-top: 0px"><header class="post__header svelte-1js559p"><h1 class="post__title svelte-1js559p">Tamaños que no importan: tree-shakeables</h1> <div class="post__meta-row svelte-1js559p"><!--[--><div class="post__date svelte-1js559p">11 de agosto de 2024</div><!--]--> <!--[--><div class="post__tags svelte-1js559p"><!--[--><a class="tag svelte-rpb2ex" href="/tag/dx">DX</a><a class="tag svelte-rpb2ex" href="/tag/front-end">Front end</a><!--]--></div><!--]--></div></header> <!----><p>He estado desarrollando una biblioteca con unos alumnos, de cara a crear algo
+relativamente sucio pero familiar donde llegado a un punto empezar a aplicar
+refactoring. Algo así como un pet project.</p> <p>La biblioteca facilita la creación de punteros que permitan señalar elementos en una aplicación web
+de manera sencilla.</p> <p>He aprovechado a hacer experimentos para arrojar algo de luz sobre
+las herramientas de tree shaking actuales (spoiler: son lo mismo que hace 8
+años pero con esteroides).</p> <p>Aunque lo que comenzó como toy/pet project para un caso de uso sencillo, al final se
+ha convertido en un lanzamiento algo más serio con <a href="https://alexvgjm.github.io/point-it-out-docs/" rel="nofollow">su documentación</a> y todo.
+Durante el desarrollo me he obsesionado con el tamaño del paquete 🌞. No
+pretendo ser casposo, esa frase va a seguir sonando turbia por
+mucho que la modifique.</p> <p>Esperaba que Point it out no pasara de los 5 KB gzipped, lo que para una
+biblioteca que tendrá capacidad para generar distintos tipos de
+imágenes SVG procedimentalmente es más que aceptable, pero siempre hay margen
+para mejorar.</p> <h2>🍂Tree Shaking</h2> <p>Estaba acordándome de la vieja Lodash. <span class="line-through svelte-kze7de"><!----><!---->Era<!----></span><!----> Es una
+famosa biblioteca que brinda utilidades para aplicar programación
+funcional a muchas partes de JavaScript.</p> <p>Algunas cositas siguen siendo muy útiles, como las funciones de throttling y
+debouncing, pero, ¿instalarías tremenda biblioteca con un paquete de
+unos 25 KB (min + gzipped) por unas pocas de sus decenas de características
+(muchas ya obsoletas)?</p> <p>Para el desarrollador no supone gran problema descargar todo un paquete más,
+es algo que haces una vez. Lo que realmente preocupa es que cada usuario tuviera que descargar eso, perjudicando la carga del sitio.</p> <p>Antes no era tan problemático porque estas bibliotecas eran muy comunes y porque
+se distribuían principalmente por CDN. Con muy alta probabilidad, algún usuario
+que pasara por tu sitio ya habría pasado anteriormente por otro que usara la
+misma biblioteca, teniéndola en caché de su navegador.</p> <p>Pero ahora tampoco es un problema, porque tenemos bibliotecas tree-shakeables <em>(en realidad desde hace como 9 años, pero ahora es cuando más compatibilidad
+con los módulos ES tenemos)</em>. De hecho Lodash tiene una versión tree-shakeable en ESM.</p> <h3>En qué consiste el tree shaking y los tree-shakeables</h3> <p>Cuando generas el bundle de tu web, aplicación, biblioteca o lo que sea que estés
+bundleando, los bundlers modernos tiran de herramientas como rollup para
+minificar el resultado y de paso realizar “dead code elimination”.</p> <p>La “dead code elimination” es autoexplicativa. Elimina el código que nunca es
+accedido por evaluación de referencias y otras técnicas. Nada nuevo, esta
+es una de las responsabilidades típicas de los optimizadores en compiladores.
+Lo que es relativamente nuevo (en el ecosistema web), es la cultura de construir
+bibliotecas modulares orientadas a esto.</p> <p>En el mundo de JavaScript y aplicado especialmente a dependencias externas,
+es decir, a las bibliotecas que utilizas, el dead code elimination se conoce
+como “tree shaking”. Es un concepto bastante gráfico si piensas en un
+árbol de dependencias que sacudes y del que caen todas las hojas y ramas
+muertas. Por tanto se extrae solo aquellas partes necesarias en lugar de
+mandarle al usuario todo el tocho.</p> <h2>Diseño, DX y Tree Shaking</h2> <p>No todos los módulos ES son automáticamente tree-shakeables, deben separar muy
+bien sus características. Idealmente al priorizar la cohesión (y disminuir el
+acoplamiento) se consigue una buena separación. Cobra especial importancia
+principios como el SRP.</p> <p>Creí que mi biblioteca no sería apta para tree-shaking. La
+idea era hacer una única función punto de entrada muy bien adaptada tirando
+de tipado e ideas de DX opinionadas a más no poder. En un IDE con capacidad
+para manejar un language-server de TypeScript (casi todos hoy día), al
+empezar a escribir el primer parámetro de la función create
+(en la versión 0.1.11 al menos), una string, te daría dos opciones:</p> <!--[!--><div class="image-wrapper svelte-1urev20"><a href="data:image/png;base64,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" target="_blank"><img src="data:image/png;base64,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" alt="Sugerencia de VSCode al empezar a escribir la función create(). Se aprecia que sugiere tanto arrow como rect." class="svelte-1urev20"/></a></div><!--]--><!----> <p>Esto ya me permite un mecanismo que me evite crear dos funciones por
+separado como createArrow y createRect. A lo mejor te preguntas cosas como,
+“¿Y eso qué tiene de malo?”, “¿no sería lo correcto cumpliendo con el principio
+de responsabilidad única (SRP)?“.</p> <p>Internamente no se está rompiendo el SRP, existen las dos funciones (en realidad
+peor, existen 2 clases distintas) con implementaciones bien separadas. Una cosa
+es la API y otra la implementación. A diferencia de la UX, la DX puede ser algo
+más opinionada y relacionada al estilo de un equipo. Me gusta que solo exista
+una sola función para crear y que sea lo más guiada posible. Pocas funciones muy
+configurables con muy pocas opciones obligatorias.</p> <p>El segundo parámetro de la función son sus opciones. Tanto
+arrow como rect son los dos primeros tipos de punteros disponibles en la
+biblioteca, y ambos son SVGs, por tanto tienen opciones comunes por ser punteros y
+por ser SVGs:</p> <!--[--><figure class="image-wrapper svelte-1urev20"><a href="/_app/immutable/assets/intellisense-2.EFI6DBq0.png" target="_blank"><img src="/_app/immutable/assets/intellisense-2.EFI6DBq0.png" alt="Sugerencia de VSCode al escribir las opciones de la función create para el tipo rect" class="svelte-1urev20"/></a> <figcaption class="svelte-1urev20"><!---->Opciones comunes para todos los punteros y para aquellos de tipo SVG, además de las opciones exclusivas de 'rect'. <small>NOTA: los simbolitos son de accesibilidad para personas con algún tipo de deficiencia de visión de color.</small><!----></figcaption></figure><!--]--><!----> <p>Vemos que la única opción obligatoria es target, por eso aparece la primera, las
+otras están en orden alfabético. Si en lugar de ‘rect’ hubiéramos escrito ‘arrow’,
+las opciones serían:</p> <!--[--><figure class="image-wrapper svelte-1urev20"><a href="/_app/immutable/assets/intellisense-3.B4K9i5PN.png" target="_blank"><img src="/_app/immutable/assets/intellisense-3.B4K9i5PN.png" alt="Sugerencia de VSCode al escribir las opciones de la función create para el tipo rect" class="svelte-1urev20"/></a> <figcaption class="svelte-1urev20"><!---->Opciones comunes además de las opciones exclusivas de 'arrow'.<!----></figcaption></figure><!--]--><!----> <p>Nótese que han desaparecido las opciones de rect y han aparecido otras exclusivas
+de arrow. Solo por haber cambiado una string en el primer parámetro.</p> <p>Esto no es un caso avanzado de TypeScript, en realidad es una definición muy
+simple de momento:</p> <div class="code-wrapper svelte-122pskk" style="--lang-color: #3178c6"><!--[--><div class="code-wrapper__lang svelte-122pskk">TypeScript</div><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->interface PointerOptions {
+    rect: CommonOptions &amp; SVGOptions &amp; RectOptions
+    arrow: CommonOptions &amp; SVGOptions &amp; ArrowOptions
+}<!----></code></pre></div><!----> <h3>Espera… ¿y el tree shaking cómo se lleva con esto?</h3> <p>Y ahí es a donde quería llegar. Creí que no tendría más remedio que pasar por
+el aro y volver a la tradición.</p> <p>En algún punto de mi biblioteca hay arcaicos if que evalúan la string del
+tipo, una comparación cutre para decidir qué clase usar. ¿Serían las herramientas
+de eliminación de código tan avanzadas como para detectar eso?, si no
+ejecutan el código, y al fin y al cabo TypeScript “no existe”.</p> <p>Pues resulta que he creado un proyecto de JavaScript vanilla con Vite,
+instalado Point it out, creado un rect, hecho una build, y en el .js bundleado
+no haber ni rastro de arrows, ni de sus propiedades ni su clase ni na’.
+Repito el proceso con solo arrows y veo que ni rastro de rect.</p> <p>Así que funciona asombrosamente bien, parece que esto es más avanzado de lo que
+creía. No tengo ni idea de qué estrategia seguirá, pero de momento el poder
+continuar con mi diseño sin consecuencias técnicas es una muy buena noticia.</p><!----></article><!----><!----><!----><!--]--><!----></main> <footer class="svelte-1pvwjww">Alexander Vega © 2026</footer><!----><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_hm0bcj = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.Dys29Zju.js"),
+						import("../_app/immutable/entry/app.DZhwLGq6.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4, 6, 18],
+							data: [null,null,{type:"data",data:{post:{title:"Tamaños que no importan: tree-shakeables",slug:"tamano-no-importa-tree-shakeables",coverImage:"tree-shaking.jpg",coverAuthor:"Edoardo Botez",excerpt:"Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript.",date:"2024-08-11T15:06:23.177Z",updated:"2024-08-11T15:06:23.903Z",hidden:false,tags:["DX","Front end"],keywords:["tree-shake","side-effects","biblioteca"],type:"default",path:"/src/posts/tamano-no-importa-tree-shakeables.md",html:void 0,relatedPosts:[{title:"Deja de esperar por otros",slug:"deja-esperar-otros",coverImage:"jon-tyson.jpg",coverPosition:"normal",coverAuthor:"Jon Tyson",excerpt:"Hacerte tus propias herramientas puede acelerar tu trabajo, explico por qué.",date:"2024-09-13T13:00:23.177Z",updated:"2024-09-13T13:00:23.903Z",hidden:false,tags:["Tooling","Three.js","DX"],keywords:["herramientas","esperar","Three"],type:"default",fullReload:false,path:"/src/posts/deja-esperar-otros.md",html:void 0},{title:"El hacking a Google",slug:"el-hacking-a-google",coverImage:"machinery.jpg",coverAuthor:"Isis França",excerpt:"Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software.",date:"2024-08-02T01:19:04.325Z",updated:"2024-08-02T01:19:04.326Z",hidden:false,tags:["Hacking","Back end","Front end","Cloud"],keywords:[],type:"default",path:"/src/posts/el-hacking-a-google.md",html:void 0},{title:"Especificación visual. Caso Point it out!",slug:"especificacion-visual-caso-point-it-out",coverImage:"pio-round-fail-test.png",coverAuthor:"",excerpt:"Caso de un proyecto en activo para el que repaso el concepto de regresión visual y especificación visual. Contenido denso.",date:"2024-07-25T15:06:23.177Z",updated:"2024-07-25T15:06:23.903Z",hidden:false,tags:["Testing/TDD/BDD/ATDD","Tooling","DX"],keywords:["svg","regresión visual","visual testing"],type:"default",coverPosition:"top",path:"/src/posts/especificacion-visual-caso-point-it-out.md",html:void 0}],month:"08",day:"11"}},uses:{params:["slug"]}},{type:"data",data:{post:{title:"Tamaños que no importan: tree-shakeables",slug:"tamano-no-importa-tree-shakeables",coverImage:"tree-shaking.jpg",coverAuthor:"Edoardo Botez",excerpt:"Arrojo un poco de luz a esto del tree-shaking en módulos ECMAScript.",date:"2024-08-11T15:06:23.177Z",updated:"2024-08-11T15:06:23.903Z",hidden:false,tags:["DX","Front end"],keywords:["tree-shake","side-effects","biblioteca"],type:"default",path:"/src/posts/tamano-no-importa-tree-shakeables.md",html:void 0,relatedPosts:[{title:"Deja de esperar por otros",slug:"deja-esperar-otros",coverImage:"jon-tyson.jpg",coverPosition:"normal",coverAuthor:"Jon Tyson",excerpt:"Hacerte tus propias herramientas puede acelerar tu trabajo, explico por qué.",date:"2024-09-13T13:00:23.177Z",updated:"2024-09-13T13:00:23.903Z",hidden:false,tags:["Tooling","Three.js","DX"],keywords:["herramientas","esperar","Three"],type:"default",fullReload:false,path:"/src/posts/deja-esperar-otros.md",html:void 0},{title:"El hacking a Google",slug:"el-hacking-a-google",coverImage:"machinery.jpg",coverAuthor:"Isis França",excerpt:"Entrada resubida. Cuento una batalla contra el servicio Firebase de Google y un caso de aplicación de ingeniería de software.",date:"2024-08-02T01:19:04.325Z",updated:"2024-08-02T01:19:04.326Z",hidden:false,tags:["Hacking","Back end","Front end","Cloud"],keywords:[],type:"default",path:"/src/posts/el-hacking-a-google.md",html:void 0},{title:"Especificación visual. Caso Point it out!",slug:"especificacion-visual-caso-point-it-out",coverImage:"pio-round-fail-test.png",coverAuthor:"",excerpt:"Caso de un proyecto en activo para el que repaso el concepto de regresión visual y especificación visual. Contenido denso.",date:"2024-07-25T15:06:23.177Z",updated:"2024-07-25T15:06:23.903Z",hidden:false,tags:["Testing/TDD/BDD/ATDD","Tooling","DX"],keywords:["svg","regresión visual","visual testing"],type:"default",coverPosition:"top",path:"/src/posts/especificacion-visual-caso-point-it-out.md",html:void 0}],month:"08",day:"11"}},uses:{params:["slug"]}}],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
