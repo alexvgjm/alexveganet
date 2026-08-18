@@ -1,0 +1,1 @@
+const e="https://alexvega.net",a=["Ingeniería software","Formación","Desarrollo web"],s="Formación y consultoría especializada en desarrollo ágil. Web, sistemas de información e ingeniería de software.",o="Alex Vega - Formación y consultoría";export{o as a,s as b,a as k,e as s};

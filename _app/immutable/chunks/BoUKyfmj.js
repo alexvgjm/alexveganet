@@ -1,0 +1,6 @@
+import"./CWj6FrbW.js";import{p as C,o as I,k as q,f as u,s as f,d as b,t as z,h as c,b as m,c as A,r as x,m as w}from"./BduZyM7k.js";import{d as B}from"./B6loGvSK.js";import{s as D}from"./D4COoUHs.js";import{i as h}from"./BqxltznQ.js";import{s as g}from"./BSOZMg1Q.js";import{p as k}from"./Km-0Pu8Z.js";function F(r,e,l,o){w(e,!0),l.reset(),o()}var G=u('<button class="example-result__run svelte-1807dp1">Iniciar ▶</button>'),H=u('<button class="example-result__reset svelte-1807dp1">Reiniciar ⟳</button>'),J=u("<div><!> <div><!></div> <!></div>");function S(r,e){C(e,!0);let l=k(e,"wait",3,!0),o=k(e,"smallRun",3,!1),s=I(q(l()));function d(){w(s,!1),e.execute()}var i=J();let v;var _=b(i);{var R=t=>{var a=G();a.__click=d,m(t,a)};h(_,t=>{l()&&c(s)&&t(R)})}var n=f(_,2);let p;var j=b(n);D(j,()=>e.children),x(n);var E=f(n,2);{var y=t=>{var a=H();a.__click=[F,s,e,d],m(t,a)};h(E,t=>{e.reset&&!c(s)&&t(y)})}x(i),z((t,a)=>{v=g(i,1,"example-result svelte-1807dp1",null,v,t),p=g(n,1,"example-result__content svelte-1807dp1",null,p,a)},[()=>({"example-result--small-run":o()}),()=>({"example-result__content--waiting":c(s)})]),m(r,i),A()}B(["click"]);const T=r=>`<div id="ej-${r}" class="caja"></div>`,U=`.caja {
+    width: 3rem;
+    height: 3rem;
+    background: #8cf;
+    border-radius: 0.75rem;
+}`;export{S as E,U as c,T as h};

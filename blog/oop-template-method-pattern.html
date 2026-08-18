@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link href="../_app/immutable/assets/4.ClJVwGEW.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/styles.BI8UiRY9.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/InfoBox.DvHn1tL4.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Code.CKCio-tz.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Image.07fnLzEs.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/ColumnsContainer.CgrdB8lC.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/utils.BGjlK98L.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/18.BWf-Qbmh.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.B8dSz6Ux.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/eRaGlNCW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/k_-SACZf.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BduZyM7k.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CUZXlhwM.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B6loGvSK.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CIWVgPg3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D15U5vI1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D4COoUHs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Bkwfa0mc.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.1SXrAyhP.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BqxltznQ.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/kPmmzQJp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DzBwx_jc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Km-0Pu8Z.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Cpacy8W0.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.CgfhGROC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BTGqeDDF.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CqkleIqs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C-pAAiiO.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BQ15y-oL.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CgVzVCqa.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/4.Czlad-mt.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BSOZMg1Q.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CJDWlBBp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Wkx9sMwb.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C0NDRyn_.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/69_IOA4Y.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/611aVr9j.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CobWzPD8.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/6.LhtG8EnN.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIabmNBn.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/18.BFkx9te1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BUxVTaMj.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CNfEwzh9.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DlsCqhfG.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dav-uZcp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NVWwRTYa.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CAlu0Wgt.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B-RjqsGW.js"><!--[--><!--[--><!--]--> <!--[--><meta name="robots" content="index,follow"/><!--]--> <!--[--><meta name="description" content="Revisito un viejo patrón para combatir el dogma. Lo de siempre..."/><!--]--> <!--[--><link rel="canonical" href="https://alexvega.net/blog/oop-template-method-pattern"/><!--]--> <!--[--><meta name="keywords" content="patrones, Formación, Desarrollo web"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta name="twitter:card" content="summary"/><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:title" content="Template Method Pattern. Partiendo otra lanza por los clásicos."/><!--]--> <!--[--><meta name="twitter:description" content="Revisito un viejo patrón para combatir el dogma. Lo de siempre..."/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:image" content="https://alexvega.net/logo256.png"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta property="og:url" content="https://alexvega.net/blog/oop-template-method-pattern"/><!--]--> <!--[!--><!--]--> <!--[--><meta property="og:title" content="Template Method Pattern. Partiendo otra lanza por los clásicos."/><!--]--> <!--[--><meta property="og:description" content="Revisito un viejo patrón para combatir el dogma. Lo de siempre..."/><!--]--> <!--[--><!--[--><meta property="og:image" content="https://alexvega.net/logo256.png"/> <!--[--><meta property="og:image:alt" content="Alex Vega site logo"/><!--]--> <!--[--><meta property="og:image:width" content="256"/><!--]--> <!--[--><meta property="og:image:height" content="256"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--[--><link rel="stylesheet" href="/blog.css"/><!--]--><title>Template Method Pattern. Partiendo otra lanza por los clásicos.</title>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="loading">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents"><!--[--><!--[--><!----><!--[--><!----><!----> <!--[--><div class="nav-fade-overlay svelte-oabbd1"></div> <nav class="main-nav svelte-oabbd1"><a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/">Inicio</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/#contacto">Contacto</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/blog">Blog</a> <button class="main-nav__button svelte-oabbd1" tabindex="1" aria-busy="true" title="Desplegar menú de navegación" aria-label="Desplegar menú de navegación"></button></nav><!--]--> <!--[--><div class="loader svelte-14xshfi"><div class="loader__spinner svelte-14xshfi"></div></div><!--]--> <main class="svelte-1pvwjww main--loading"><!--[--><!----><!----><!----><!--[!--><!--]--> <article class="post svelte-1js559p" style="margin-top: 0px"><header class="post__header svelte-1js559p post__header--no-cover"><h1 class="post__title svelte-1js559p">Template Method Pattern. Partiendo otra lanza por los clásicos.</h1> <div class="post__meta-row svelte-1js559p"><!--[--><div class="post__date svelte-1js559p">9 de junio de 2026</div><!--]--> <!--[--><div class="post__tags svelte-1js559p"><!--[--><a class="tag svelte-rpb2ex" href="/tag/programacion-orientada-a-objetos">Programación orientada a objetos</a><a class="tag svelte-rpb2ex" href="/tag/ingenieria-software">Ingeniería software</a><!--]--></div><!--]--></div></header> <!----><p>Ya hacía unos meses que no pasaba por aquí, pero empieza otra etapa en la vida
+mucho más despejada. Quería escribir algunos nuevos propósitos, pero hablando
+con un colega me acordé que tenía este borrador por algún lado pendiente.</p> <p>Seguimos luchando contra dogmatismos y acercándonos al día que escriba sobre
+Composition over Inheritance (<em>lo siento, hoy tampoco es ese día…</em>)</p> <p>Entre los perfiles que leen este blog, cuando hablo de programación orientada a
+objetos (OOP), hay dos posiciones muy comunes con preguntas prácticamente opuestas:</p> <ul><li>¿Por qué hablas como si la OOP clásica hubiera muerto?</li> <li>¿Por qué hablas como si alguien usase mecanismos clásicos de OOP en 2026?</li></ul> <div class="info-box svelte-um5er8"><!--[!--><!--]--> <!----><!---->NOTA: me tomo una licencia con mi idioma, de usar formas del adjetivo "clásico" no solo
+con su acepción original, sino también con una sobrecarga de significado: 
+"relacionado con las clases". A Don Pérez Reverte
+le estará picando la nariz. Me la suda.<!----></div><!----> <p>La primera pregunta es común en los perfiles que siguen trabajando en ecosistemas
+donde los mecanismos clásicos de la OOP son el pan de cada día, especialmente
+con lenguajes como Java o C#.</p> <p>La segunda se la hacen los perfiles que llevan más años en el frente del estado
+del arte: la ingeniería de software moderna potenciada por mecanismos
+superflexibles y lenguajes de cadena de prototipo (te estoy mirando a ti,
+ECMAScript), la que es completamente capaz de solventar
+todos los problemas que daban razón de ser a los mecanismos clásicos de OOP,
+como las clases y la herencia.</p> <h2>El suceso definitorio: la postura de Evan You</h2> <p>El mismo Evan You, creador de Vue.js, reorientó toda la arquitectura de Vue 3
+y Vite (especialmente en la Composition API), a evadir completamente las clases.
+Tenía muchas razones para ello bien explicadas, empezando porque las clases no
+existen como tal en JavaScript, solo son sugars sintáctico que llena de hacks
+el código y problemas de rendimiento. O al menos así era en aquella época.</p> <p>Esa sensación no era nueva en el mundillo. Los que sabíamos <em>la verdad™</em>, sobre cómo
+construir funciones y definir su cadena de prototipo, sabíamos que algo olía
+raro en esa sintaxis. Las palabras de Evan You reforzaron a una nueva generación
+que se alejó de las clases y empezó a experimentar con mecanismos y patrones
+que no encajaban en los modelos clásicos.</p> <p>Es un error garrafal pensar que la programación orientada a objetos va de
+“clases”. Las clases son un mecanismo más. Los verdaderos protagonistas son
+los objetos, y hay más de una forma de definirlos, construirlos y relacionarlos.</p> <p>Pero es un error aún más grave pensar que las clases <strong>son malas</strong> o que <strong>no se deben usar</strong>, o que sus mecanismos asociados como la herencia son
+peligrosos para la ingeniería de software.</p> <p>Por supuesto esto no es lo que defiende Evan You, él solo explicaba los motivos
+en los contextos de JavaScript y en sus propias arquitecturas, no inició ninguna
+especie de cruzada en contra como algunos parece que asumieron.</p> <h2>El (no tan) problema de las clases, abstracción y herencia</h2> <p>Soy muy fan de la composición, y
+también prometo que no tengo ningún problema personal ni ningún juicio negativo contra
+mecanismos como las clases y la herencia. Lo demostraré.</p> <p>¿Has oído hablar de eso del principio abierto/cerrado (OCP)? Seguramente, como todo
+el gremio, la O de los SOLID, la joyita de Bertrand Meyer favorita del tito Bob Martin, y el principio
+que menos entendemos y menos sabemos explicar.</p> <p>Ese principio es, en realidad, en el que se fundamentan aquellos patrones que
+buscan erradicar los problemas más graves de la abstracción en clases, y hoy
+voy a rescatarlo con otro ejemplo más real.</p> <h3>Caso real: creando un sistema de componentes UI</h3> <p>Imagínate, en el viejo mundo, que definimos una clase abstracta <code>BaseComponent</code>,
+donde queremos definir su ciclo de vida (creación, montaje, renderizado,
+desmontaje).</p> <div class="code-wrapper svelte-122pskk code-wrapper--no-margin" style="--lang-color: transparent"><!--[!--><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!----> abstract class BaseComponent{
+    root: HTMLElement
+
+    constructor(options: BaseComponentProps) {
+    	this.root = document.createElement(options.root) 
+    }
+    
+    mount(target: HTMLElement) {
+    	target.appendChild(this.root)
+    }
+
+    unmount() {
+    	this.root.remove()
+    }
+
+    abstract render(): void
+}<!----></code></pre></div><!----> <p>Decidimos que <code>render</code> sea abstracto, parte del contrato, cada componente se
+renderiza como quiere así que debe implementarlo. Pregunta, ¿esto respeta
+el principio abierto/cerrado?</p> <p>Aquí nacen los verdaderos problemas de la abstracción y la herencia y por qué
+todo empieza a irse de madres rápidamente.</p> <p>El principal problema no está en los abstractos, <em>a mí me es irrelevante si quieres dejar funciones dummies o si te cargas la palabra abstract de todos lados</em>, solo lo puse para despistar.</p> <p>Supón que el primer componente
+que creas, tiene que hacer cosas durante el montaje o el desmontaje. ¿Qué haces?</p> <p>“Fácil, sobreescribo el método mount y listo, primero llamando al método padre
+para respetar lo que hiciera antes…“.</p> <div class="code-wrapper svelte-122pskk code-wrapper--no-margin" style="--lang-color: transparent"><!--[!--><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->
+// En una clase que hereda de BaseComponent
+// ...
+mount(target: HTMLElement) {
+    super.mount(target)
+    // Hago cosas específicas de este componente durante el montaje
+}
+// ...<!----></code></pre></div><!----> <p>Esto tiene una buena cantidad de problemas:</p> <ul><li>Tienes que llamar al supermétodo. Aquí de por sí encontramos otro conjunto de
+problemas, derivados del simple hecho de darte esa responsabilidad <em>(empezando
+por lo obvio: que no te olvides de llamarla)</em></li> <li>El punto más crítico es que estás controlando el flujo de vida del componente,
+modificando su comportamiento. <em>Ok, no lo estamos haciendo, pero podríamos, y eventualmente
+tendremos necesidad o tentación de hacerlo</em>. Aquí es
+cuando entran los líos, se introducen
+sorpresas y se empieza a dispersar responsabilidades por todos lados, <strong>este es el escenario al que nunca queremos llegar</strong>. Es al que todo el
+mundo teme. <ul><li>Un caso habitual ocurre cuando decide posponerse la llamada al padre, primero
+hacer algo, y al final invocar al supermétodo. A lo mejor funciona, pero puede que
+tras un cambio de la implementación del padre, la nueva acción no se pueda
+realizar antes, quizás necesita de algo que solo se construye tras un primer
+mount. Nadie definió que pudieras hacer eso, y pagas cualquier side effect.</li></ul></li></ul> <p>¿Qué tal si decidimos que el ciclo de vida del componente sea inmutable? Que sí
+puedas definir qué
+hacer tras cada paso, sin saber siquiera lo que hacen de base ni tener la
+opción de modificarlo (ni de olvidarte). ¿Cómo podemos entonces <strong>extender</strong> el comportamiento sin <strong>modificar</strong> y sin tener la posibilidad de meter la pata?</p> <h2>El Template Method Pattern</h2> <p>Es un patrón con muchas variantes, pero todas ellas se basan en la misma idea:
+mantener un flujo y dejar pasos concretos a otros sin posiblidad de alterar el flujo.</p> <p>Para este caso se definen métodos adicionales que representan qué hacer tras
+el paso concreto en el ciclo de vida. Por ejemplo, métodos anclaje como <code>onMount()</code> u <code>onRender()</code>,
+que se llamarán tras el montaje o el renderizado respectivamente, pero que NO HACEN NADA por sí mismos.</p> <div class="code-wrapper svelte-122pskk code-wrapper--no-margin" style="--lang-color: transparent"><!--[!--><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->
+// En BaseComponent
+readonly mount = (target: HTMLElement) => {
+    target.appendChild(this.root)
+    this.onMount()
+}
+
+onMount() {}<!----></code></pre></div><!----> <p>De ahí la palabra “Template”. Básicamente ofreces una plantilla de ejecución,
+donde tipos concretos de la clase solo meten el código propio en los puntos
+claves del ciclo de vida.</p> <p>También podemos controlar el orden, meter otra forma de anclar al ciclo de vida
+antes o después de cada punto, como <code>beforeMount()</code> o <code>afterMount()</code>.</p> <p>Lo importante es que el componente hijo no sabría de detalles de ejecución
+ni modifica el comportamiento del padre, pero sí puede extenderlo. Es el ejemplo
+realista más explícito de OCP que he encontrado recientemente.</p> <h3>¿Notaste el “sutil” cambio de sintaxis?</h3> <p>Volvamos con esas quejas de Evan You.</p> <p>Nótese que en TypeScript hemos cambiado el método <code>mount</code> a una función de flecha
+de solo lectura, para evitar su sobreescritura. En lenguajes más tradicionales
+enfocados a OOP tenemos palabros como <code>final</code> o <code>sealed</code> para marcar métodos
+como no sobrescribibles. En JavaScript, no. Como decíamos, en JavaScript en
+realidad no existen ni las clases como tal.</p> <p>En TypeScript no tenemos esto para métodos, pero sí para campos.
+Por alguna razón se les resiste en métodos, de ahí lo de pasarlo a un campo
+readonly y función flecha (y esto no es gratis, ojo, no es un mero cambio
+de sintaxis).</p> <p>Dicen que es un debate complicado por la incongruencia entre ejecución y
+compilación, pero lo cierto es que ya existen mecanismos restrictivos en
+TypeScript como ReadonlySet, para definir un Set como de solo lectura, y que
+en ejecución no deja de ser un Set normal y corriente.</p> <p>Si te gusta la DX, seguramente ya estés pensando que se podría añadir
+una regla a ESLint o un plugin de TypeScript para que se pueda usar readonly,
+final, sealed o algún otro palabro, o un decorador. Y así es, yo meto
+metaprogramación por DX en mis proyectos como si no hubiera mañana.</p> <h2>Middleware, eventos, composición funcional, clausuras, inyección de dependencias…</h2> <p>A la que tengas un poco de conocimiento ya se te habrán ocurrido muchas otras
+formas de solucionar el mismo problema, muchas que entran en el camino de la
+Composión sobre la Herencia (COI), y algunas que ni requieren clases <em>(en
+lenguajes que permitan prescindir de ellas)</em>.</p> <p>A mí personalmente me encanta trabajar con eventos y listeners (o
+cualquier variante de observer o pub/sub), los prefiero
+a todo esto. Pero he hecho ya una buena cantidad de auditorías, las suficientes
+como para garantizarte que pueden usarse mecanismos, patrones y arquitecturas
+clásicas exactamente igual de eficientes y fáciles de mantener.</p> <p>El código más fácil de explicar es evidentemente el que no requiere explicación,
+y la herencia es algo que se suele entender fácilmente <em>(quizás tiene algo que ver el que la metan hasta en la sopa sin ningún contexto en FP y primeros años de universidad)</em>. Para mí es una herramienta
+de diseño de muy alto valor, y la despreciamos porque no nos
+paramos a pulirla un poquito o porque nos suena a algo viejo o “demasiado fácil”.</p> <p>La mayoría de opiniones que veo en estos debates están poco justificadas y cargadas de dogma. Para mí es una guerra donde no hay botín, y a la que cuaquier persona con
+un mínimo de conocimiento le importará un pimiento mientras exista una buena
+especificación y batería de tests. Aconsejo un poco más de la infalible
+tolerancia y pragmatismo.</p><!----></article><!----><!----><!----><!--]--><!----></main> <footer class="svelte-1pvwjww">Alexander Vega © 2026</footer><!----><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_12sc9zs = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.B8dSz6Ux.js"),
+						import("../_app/immutable/entry/app.1SXrAyhP.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4, 6, 18],
+							data: [null,null,{type:"data",data:{post:{title:"Template Method Pattern. Partiendo otra lanza por los clásicos.",slug:"oop-template-method-pattern",excerpt:"Revisito un viejo patrón para combatir el dogma. Lo de siempre...",date:"2026-06-09T15:10:05.000Z",updated:"2026-06-09T15:10:05.000Z",tags:["Programación orientada a objetos","Ingeniería software"],keywords:["patrones"],type:"default",coverImage:void 0,path:"/src/posts/oop-template-method-pattern.md",html:void 0,relatedPosts:[{title:"Flipadismos de mecanismos en programación orientada a objetos",slug:"flipadismos-mecanismos-oop",coverImage:"",excerpt:"El código simple es fácil de cambiar; los flipadismos que nadie ha pedido, no.",date:"2025-09-04T19:32:04.325Z",updated:"2025-09-04T19:32:04.326Z",hidden:false,tags:["Ingeniería software","Programación orientada a objetos"],keywords:[],type:"default",path:"/src/posts/flipadismos-mecanismos-oop.md",html:void 0},{title:"Cuántas muertes evitables...",slug:"cuantas-muertes-evitables",coverAuthor:"",excerpt:"He publicado una lista de errores comunes un pelín alarmista.",date:"2025-03-27T22:38:29.122Z",updated:"2025-03-27T22:38:29.122Z",hidden:false,tags:["TDD/BDD/ATDD","Ingeniería software"],keywords:["smells","tests"],type:"default",coverPosition:"top",coverImage:void 0,path:"/src/posts/cuantas-muertes-evitables.md",html:void 0},{title:"La enseñanza es la forma de aprendizaje más profunda",slug:"ensenanza-aprendizaje-profundo",coverImage:"",excerpt:"La enseñanza se presenta como una forma de trabajar múltiples habilidades necesarias en nuestra profesión, empezando por la comunicación.",date:"2025-05-09T20:41:04.325Z",updated:"2025-05-09T20:41:04.326Z",hidden:false,tags:["Formación","Ingeniería software"],keywords:["Enseñanza","Sostenibilidad","Artesanía","Comunicación"],type:"default",path:"/src/posts/ensenanza-aprendizaje-profundo.md",html:void 0}],month:"06",day:"09"}},uses:{params:["slug"]}},{type:"data",data:{post:{title:"Template Method Pattern. Partiendo otra lanza por los clásicos.",slug:"oop-template-method-pattern",excerpt:"Revisito un viejo patrón para combatir el dogma. Lo de siempre...",date:"2026-06-09T15:10:05.000Z",updated:"2026-06-09T15:10:05.000Z",tags:["Programación orientada a objetos","Ingeniería software"],keywords:["patrones"],type:"default",coverImage:void 0,path:"/src/posts/oop-template-method-pattern.md",html:void 0,relatedPosts:[{title:"Flipadismos de mecanismos en programación orientada a objetos",slug:"flipadismos-mecanismos-oop",coverImage:"",excerpt:"El código simple es fácil de cambiar; los flipadismos que nadie ha pedido, no.",date:"2025-09-04T19:32:04.325Z",updated:"2025-09-04T19:32:04.326Z",hidden:false,tags:["Ingeniería software","Programación orientada a objetos"],keywords:[],type:"default",path:"/src/posts/flipadismos-mecanismos-oop.md",html:void 0},{title:"Cuántas muertes evitables...",slug:"cuantas-muertes-evitables",coverAuthor:"",excerpt:"He publicado una lista de errores comunes un pelín alarmista.",date:"2025-03-27T22:38:29.122Z",updated:"2025-03-27T22:38:29.122Z",hidden:false,tags:["TDD/BDD/ATDD","Ingeniería software"],keywords:["smells","tests"],type:"default",coverPosition:"top",coverImage:void 0,path:"/src/posts/cuantas-muertes-evitables.md",html:void 0},{title:"La enseñanza es la forma de aprendizaje más profunda",slug:"ensenanza-aprendizaje-profundo",coverImage:"",excerpt:"La enseñanza se presenta como una forma de trabajar múltiples habilidades necesarias en nuestra profesión, empezando por la comunicación.",date:"2025-05-09T20:41:04.325Z",updated:"2025-05-09T20:41:04.326Z",hidden:false,tags:["Formación","Ingeniería software"],keywords:["Enseñanza","Sostenibilidad","Artesanía","Comunicación"],type:"default",path:"/src/posts/ensenanza-aprendizaje-profundo.md",html:void 0}],month:"06",day:"09"}},uses:{params:["slug"]}}],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

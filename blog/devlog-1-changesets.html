@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="color-scheme" content="dark" />		
+		<!-- Color for browser url bar in mobile/Safari -->
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#222222" />
+		<!-- Disable Google FLOC -->
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0" />
+		<meta property="og:type" content="website" />
+
+
+		<script>
+			// Calling this here so that it loads as quickly as possible
+			// Avoiding a flash of light mode in case dark mode is used
+			const theme = localStorage.getItem('theme-preference') || 'auto';
+			document.firstElementChild?.setAttribute('data-theme', theme);
+		</script>
+		
+		<link href="../_app/immutable/assets/4.ClJVwGEW.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/styles.BI8UiRY9.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/InfoBox.DvHn1tL4.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Code.CKCio-tz.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/Image.07fnLzEs.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/ColumnsContainer.CgrdB8lC.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/utils.BGjlK98L.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/18.BWf-Qbmh.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.B8dSz6Ux.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/eRaGlNCW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/k_-SACZf.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BduZyM7k.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CUZXlhwM.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B6loGvSK.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CIWVgPg3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D15U5vI1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/D4COoUHs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Bkwfa0mc.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.1SXrAyhP.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BqxltznQ.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/kPmmzQJp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DzBwx_jc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Km-0Pu8Z.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Cpacy8W0.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.CgfhGROC.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BTGqeDDF.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CqkleIqs.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C-pAAiiO.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BQ15y-oL.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CgVzVCqa.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/4.Czlad-mt.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BSOZMg1Q.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CJDWlBBp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Wkx9sMwb.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/C0NDRyn_.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/69_IOA4Y.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/611aVr9j.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CobWzPD8.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/6.LhtG8EnN.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DIabmNBn.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/18.BFkx9te1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/BUxVTaMj.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CNfEwzh9.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DlsCqhfG.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Dav-uZcp.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/NVWwRTYa.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/CAlu0Wgt.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/B-RjqsGW.js"><!--[--><!--[--><!--]--> <!--[--><meta name="robots" content="index,follow"/><!--]--> <!--[--><meta name="description" content="Inicio DevLog en este blog, hablando de ChangeSets y reactividad"/><!--]--> <!--[--><link rel="canonical" href="https://alexvega.net/blog/devlog-1-changesets"/><!--]--> <!--[--><meta name="keywords" content="gamedev, Formación, Desarrollo web"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta name="twitter:card" content="summary"/><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:title" content="DevLog #1: ChangeSet"/><!--]--> <!--[--><meta name="twitter:description" content="Inicio DevLog en este blog, hablando de ChangeSets y reactividad"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><meta name="twitter:image" content="https://alexvega.net/logo256.png"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[--><!--[--><meta property="og:url" content="https://alexvega.net/blog/devlog-1-changesets"/><!--]--> <!--[!--><!--]--> <!--[--><meta property="og:title" content="DevLog #1: ChangeSet"/><!--]--> <!--[--><meta property="og:description" content="Inicio DevLog en este blog, hablando de ChangeSets y reactividad"/><!--]--> <!--[--><!--[--><meta property="og:image" content="https://alexvega.net/logo256.png"/> <!--[--><meta property="og:image:alt" content="Alex Vega site logo"/><!--]--> <!--[--><meta property="og:image:width" content="256"/><!--]--> <!--[--><meta property="og:image:height" content="256"/><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><!--[--><link rel="stylesheet" href="/blog.css"/><!--]--><title>DevLog #1: ChangeSet</title>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="loading">
+		<div class="hydration-protection-wrapper__dont-remove" 
+			 style="display: contents"><!--[--><!--[--><!----><!--[--><!----><!----> <!--[--><div class="nav-fade-overlay svelte-oabbd1"></div> <nav class="main-nav svelte-oabbd1"><a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/">Inicio</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/#contacto">Contacto</a> <a class="main-nav__link svelte-oabbd1" tabindex="-1" href="/blog">Blog</a> <button class="main-nav__button svelte-oabbd1" tabindex="1" aria-busy="true" title="Desplegar menú de navegación" aria-label="Desplegar menú de navegación"></button></nav><!--]--> <!--[--><div class="loader svelte-14xshfi"><div class="loader__spinner svelte-14xshfi"></div></div><!--]--> <main class="svelte-1pvwjww main--loading"><!--[--><!----><!----><!----><!--[!--><!--]--> <article class="post svelte-1js559p" style="margin-top: 0px"><header class="post__header svelte-1js559p post__header--no-cover"><h1 class="post__title svelte-1js559p">DevLog #1: ChangeSet</h1> <div class="post__meta-row svelte-1js559p"><!--[--><div class="post__date svelte-1js559p">18 de julio de 2026</div><!--]--> <!--[--><div class="post__tags svelte-1js559p"><!--[--><a class="tag svelte-rpb2ex" href="/tag/gamedev">Gamedev</a><a class="tag svelte-rpb2ex" href="/tag/ingenieria-de-software">Ingeniería de software</a><!--]--></div><!--]--></div></header> <!----><p>He decidido, <em>durante lo que aguante mi motivación</em>, escribir un DevLog enfocado
+en la exploración y explicación de mecánicas e ingeniería de software aplicada
+a motores gráficos y motores de videojuegos.</p> <p>En este primer DevLog, hablaré de los desafíos de sistemas vivos de alta
+actualización y la representación reactiva de su estado en la interfaz de usuario.
+Como de costumbre, el objetivo es la separación de
+responsabilidades en busca de la testabilidad y sostenibilidad.</p> <h2>Reactividad en sistemas complejos de alta frecuencia de modificación no determinista</h2> <p>Imagina que un sistema vivo muta su estado cada 16ms (60 veces por segundo).
+Podrías diseñar un sistema de representación que en cada actualización del estado,
+renderice (dibuje) el nuevo estado. No tiene mucho problema, pero añadamos dificultades:</p> <h3>¿Y si cambia el estado 300 veces por segundo?, ¿o de forma irregular?</h3> <p>Esto es muy poquito para un procesador. Pero en un sistema de vista reactiva, cada
+cambio de estado es registrado. Esto no significa que
+cada cambio sea inmediatamente actualizado en vista, pintado en pantalla. No se puede
+dibujar 300 veces por segundo ni tiene sentido, eso sí sería muy caro,
+especialmente hablando de elementos web.</p> <p>Pero aunque no se dibuje, sigue teniendo un precio. Seguimos registrando ese cambio.
+React, Vue, Svelte, etc. tienen un sistema de microtareas y microbatching que
+junta todos los cambios finales y solo pinta una vez por fotograma, adaptado
+a demanda del navegador, pero sigue teniendo en cuenta el cambio.</p> <p>Aunque el DOM no sufra, el motor de reactividad sí. Cada mutación obliga al framework a marcar variables como “sucias”, evaluar dependencias y encolar microtareas. Ejecutar este ciclo cientos de veces por segundo para valores intermedios que el usuario jamás llegará a ver en pantalla es lo que conocemos como over-triggering.</p> <h3>¿Y si solo cambian unas pocas partes y no todo el sistema?</h3> <p>Podrías pensar: <em>“pero Álex, en un sistema reactivo no nos importa, suelen tener granularidad a nivel de variable, exceptuando React que apesta por todos lados con su programación funcional, sus modelos inmutables y renderizados completos por defecto…”</em></p> <p><strong>Dificultad</strong>: ¿Dónde tienes esa reactividad? Los frameworks de vista, son frameworks de vista, valga la redundancia. Si quieres aprovechar sus mecanismos de reactividad para controlar el estado del sistema, estarás acoplando tu sistema a un framework de vista.</p> <p><em>(Hago un inciso para recordar que el sistema de reactividad de Vue, @vue/reactivity, está desacoplado y puede usarse con otros fines más allá de la vista)</em></p> <p>El principal problema, como siempre, cae en la testabilidad. Quieres poder probar tu sistema sin necesidad de estar cargando dependencias de terceros con una responsabilidad que ni siquiera estás testando (representación).</p> <h3>Ilustración</h3> <p>Este ejemplo no usa ninguna solución de las planteadas en este artículo, es una
+mera “ilustración”. Tenemos algo que
+cambia su valor muy rápidamente. Además de una representación mucho más costosa,
+también podría ser completamente innecesaria. De hecho, en este caso destruye
+la experiencia de usuario, ni siquiera puede leerse correctamente los valores
+con esa tasa de refresco.</p> <div class="columns-container svelte-1vekg74 columns-container--no-margin" style="--gap: 0px"><div class="columns-container__left svelte-1vekg74 grow" style="width: auto"><!----><div slot="left"><h3>Tiempo real</h3> <div class="registro-cambios registro-cambios--tiempo-real svelte-1gm0060"><!--[--><!--]--></div></div><!----></div> <div class="columns-container__right svelte-1vekg74 grow" style="width: auto"><!----><div slot="right"><h3>Actualización controlada</h3> <div class="registro-cambios registro-cambios--lento svelte-1gm0060"><!--[--><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><div class="registro-cambios__msg svelte-1gm0060"> </div><!--]--></div></div><!----></div></div><!----> <p>Ambos usan los mismos datos, solo se “pintan” a intervalos diferentes. Uno a tiempo
+real y otro cada dos segundos. Ambos tienen en cuenta su valor anterior según
+su intervalo para determinar si es subida o bajada. El lento no actualiza su
+valor si el valor es el mismo que hace dos segundos (sin cambios relativos).</p> <h2>ChangeSet</h2> <p>Un ChangeSet, <em>en este contexto entendido como estructura de datos</em>, representa un conjunto de cambios. Quizás simples etiquetas o IDs de cosas que han cambiado. En forma más básica, no importa cuántas veces desde la última vez que se revisó el ChangeSet, solo se anota si ha cambiado,
+mantiene una naturaleza idempotente frente a múltiples cambios.</p> <p>Es en definitiva, un set, de strings habitualmente. Pueden ser emitidos por un sistema de publicación/subscripción (pub/sub), siendo tratados como ValueObject o el mismo ChangeSet ser en sí mismo dicho sistema, siendo un objeto mutable, subscribíble y publisher. Cada cual con la sobrecarga de responsabilidad que le guste más, ahí no me meto…</p> <p>No tiene por qué almacenar detalles (payloads), no es un sistema de eventos al uso, ni un command bus, ni cosas raras que puedas asociar a una arquitectura basada en eventos. No tiene temporalidad, no tiene por qué saber cuándo se mutó.</p> <p>En esta forma primitiva normalmente no es apto para sistemas de información y en red. Tampoco es ideal en sistemas asíncronos. Cuando se “emite” un ChangeSet, se asume que todos los interesados tienen acceso al estado real, a la única fuente de verdad (que en realidad puede ser una copia
+de la fuente de verdad, a fin de evitar modificaciones).</p> <p>El ChangeSet primitivo almacena cambios, sin más, y los emite de golpe (y se limpia), cuando decidamos, a un ritmo que decidamos. <strong>¿Qué tiene de diferente de los dirty flags o sistemas similares de seguimientos de cambios como los que tenemos en frameworks de vista?</strong> En esencia, nada. La única diferencia clave es que lo controlamos nosotros, y esto, entre otras, nos obliga a registrar los cambios de forma explícita.</p> <p>Esto de por sí, a pesar de ser otra responsabilidad y una complejidad añadida, es un fuerte plus: <strong>nos obliga a definir y controlar muy bien todos los puntos de mutación del estado</strong>. Cuando es un rollo mutar cosas, te aseguro que nadie quiere estar duplicando ese rollo en otros lados, evita muchas sorpresas.</p> <figure><div class="code-wrapper svelte-122pskk code-wrapper--no-margin" style="--lang-color: transparent"><!--[!--><!--]--> <div class="code-wrapper__buttons svelte-122pskk"><!--[!--><!--]--> <!--[!--><!--]--></div> <pre class="svelte-122pskk"><code class="language-typescript svelte-122pskk"><!----><!---->export const addResource = (resource: ResourceID, amount: number) => {
+    const previousValue = resourcesState.resources[resource]
+    const capacity = resourcesState.baseCapacity[resource]
+    const newValue = clamp(previousValue + amount, 0, capacity)
+    if (previousValue == newValue) { return }
+    
+    resourcesState.resources[resource] = newValue
+    resourcesChangeSet.addChange('altered')
+    resourcesChangeSet.addChange(`altered.${resource}`)
+}<!----></code></pre></div><!----> <figcaption class="svelte-1gm0060">Código primitivo y muy explícito para añadir cambios a un ChangeSet. Se puede añadir mucha magia para que automáticamente al mutar el estado, el ChangeSet también lo registre (mediante proxy mismo), pero aumenta la sorpresa (acciones ocultas) y además, ya no daría miedo mutar fuera de este método, y el miedo previene daños :).</figcaption></figure> <p>Podemos tener numerosos ChangeSets, quizás por temáticas (fomentando el slicing). Ayuda a que un componente de vista solo tenga que subscribirse al ChangeSet que le interesa. Nos permite ajustar la granularidad a nuestro gusto en lugar de tener una granularidad completa por defecto.</p> <p>Quizás también te preguntes <strong>por qué querríamos tener menos granularidad, si al final necesitaríamos tirar de preguntas (if) en muchos casos para ver qué ha cambiado</strong>. Con el tiempo,
+verás que las preguntas son una herramienta increíblemente poderosa para dejar
+muy claro la intención del código. Más que verlas como un coste computacional
+o un error de novato, empieza a verlas como una gran pista de lo que se pretende
+hacer y una drástica disminución de la sorpresa, de la sobreingeniería o
+de la complejidad accidental.</p> <h2>Caso de uso en idles</h2> <p>No tiene sentido un DevLog sin Dev. Estoy en medio del desarrollo de
+un motor custom para un juego tipo idle con gestión
+de recursos y muchos otros sistemas complejos. Puede tener cientos
+de módulos independientes que se actualizan cientos de veces por segundo, y
+debe ser completamente testable sin dependencias de la capa de vista.</p> <p>En un primer momento utilizaba Svelte como vista, y todo el estado del juego era
+reactivo mediante la propia reactividad del framework. No funcionaba mal,
+pero estaba tomando cada vez más decisiones de diseño que no quería tomar,
+basadas en el hecho de que no tengo control sobre el ciclo de actualización
+de los elementos del DOM, y por supuesto, acoplando el núcleo del motor a
+una biblioteca externa.</p> <p>Pero <strong>soy un yonqui de Svelte y su sistema de runas</strong>. Quería
+una vista en Svelte y seguir disfrutando de diseño basado en componentes
+reactivos, así que tenía que envolver de alguna manera el estado del motor en
+alguna capa reactiva.</p> <p>En una store✨ <em>(estado centralizado, único y accesible globalmente, en una palabra bonita que se han inventado los ingenieros frontend para que nadie les tire piedras por llamarlo por lo que realmente es: un singleton de manual, con sus mismos problemas)</em>, decidí que tendría todo el estado
+reactivo que alimentaría a la vista. Los datos de la store se alimentan cuando
+el sistema emite los cambios.</p> <!--[--><figure class="image-wrapper svelte-1urev20"><a href="/_app/immutable/assets/diagrama-changeset.KLw6lWUw.png" target="_blank"><img src="/_app/immutable/assets/diagrama-changeset.KLw6lWUw.png" alt="Diagrama mostrando uso de un ChangeSet" class="svelte-1urev20"/></a> <figcaption class="svelte-1urev20"><!---->En este caso, el ChangeSet es también publisher, aunque no emite
+    nunca de forma automática.<!----></figcaption></figure><!--]--><!----> <p>El flush de los ChangeSet, es decir, emitir notificaciones de cambios y limpiarse,
+es controlado, nunca automático. Se necesita una tercera pieza que asuma el rol
+de dispatcher. Lo normal, quien se encarga de iniciar el loop de
+actualización del juego, también se encarga de este proceso.</p> <!--[--><figure class="image-wrapper svelte-1urev20"><a href="/_app/immutable/assets/captura-unnamed-idle-game.Da0vEvfh.png" target="_blank"><img src="/_app/immutable/assets/captura-unnamed-idle-game.Da0vEvfh.png" alt="Captura del idle con ChangeSets" class="svelte-1urev20"/></a> <figcaption class="svelte-1urev20"><!---->Una primera versión de pruebas del sistema con unos pocos recursos y acciones. Todo es reactivo de cara a la vista, pero los datos reactivos surgen de manera controlada del estado del juego mediante ChangeSets<!----></figcaption></figure><!--]--><!----> <h2>Alternativas</h2> <p>Como siempre, existen muchas otras técnicas, mecanismos y patrones. Recientemente he implementado un sistema con cola de eventos.
+Algo muy similar, pero con temporalidad. Simplemente todos los eventos que van ocurriendo (con su payload) en un sistema de un juego por turnos, se encolan para luego ser procesados por la vista en el orden y al ritmo adecuado. Un Event Queue mezclado con Command pattern, por si a alguien le interesan nombres conocidos.</p> <p>Ya cada cual con su tema, pero yo últimamente me estoy centrando más en soluciones muy fáciles de entender a largo plazo, por lo explícitas que suelen ser.</p><!----></article><!----><!----><!----><!--]--><!----></main> <footer class="svelte-1pvwjww">Alexander Vega © 2026</footer><!----><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_12sc9zs = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.B8dSz6Ux.js"),
+						import("../_app/immutable/entry/app.1SXrAyhP.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4, 6, 18],
+							data: [null,null,{type:"data",data:{post:{title:"DevLog #1: ChangeSet",slug:"devlog-1-changesets",excerpt:"Inicio DevLog en este blog, hablando de ChangeSets y reactividad",date:"2026-07-18T08:50:23.177Z",updated:"2026-07-18T08:50:23.903Z",tags:["Gamedev","Ingeniería de software"],keywords:["gamedev"],type:"default",coverImage:void 0,path:"/src/posts/devlog-1-changesets.md",html:void 0,relatedPosts:[{title:"Arneses para testeo de componentes de UI",slug:"arneses-testing-componentes",excerpt:"Ventajas de los arneses en testing de componentes compuestos.",date:"2026-01-16T01:26:23.177Z",updated:"2026-01-16T01:26:23.903Z",tags:["Testing/TDD/BDD/ATDD","UI/UX","Component design"],keywords:["arneses","harness","testing"],type:"default",coverImage:void 0,path:"/src/posts/arneses-testing-componentes.md",html:void 0},{title:"Autonomía y ajenidad (parte 1)",slug:"autonomia-ajenidad-1",coverImage:"starfish.jpg",coverPosition:"normal",coverAuthor:"Pedro Lastra",excerpt:"El trabajador autónomo no existe y el trabajo no es un orgullo.",date:"2024-08-24T13:06:23.177Z",updated:"2024-08-24T13:06:23.903Z",hidden:false,tags:["Personal","Laboral","Software libre"],keywords:["trabajo","autónomo"],type:"default",path:"/src/posts/autonomia-ajenidad-1.md",html:void 0},{title:"🔴 Caso de la suite Cosby",slug:"caso-suite-cosby",coverImage:"blizzard.jpg",coverPosition:"normal",coverAuthor:"Annie Nyle",excerpt:"Repaso algunas experiencias con este caso, implicados, nuestra postura y resultados.",date:"2024-10-06T13:00:23.177Z",updated:"2024-10-06T13:00:23.903Z",hidden:false,tags:["Personal","Tooling"],keywords:["Blizzard"],type:"default",fullReload:false,path:"/src/posts/caso-suite-cosby.md",html:void 0}],month:"07",day:"18"}},uses:{params:["slug"]}},{type:"data",data:{post:{title:"DevLog #1: ChangeSet",slug:"devlog-1-changesets",excerpt:"Inicio DevLog en este blog, hablando de ChangeSets y reactividad",date:"2026-07-18T08:50:23.177Z",updated:"2026-07-18T08:50:23.903Z",tags:["Gamedev","Ingeniería de software"],keywords:["gamedev"],type:"default",coverImage:void 0,path:"/src/posts/devlog-1-changesets.md",html:void 0,relatedPosts:[{title:"Arneses para testeo de componentes de UI",slug:"arneses-testing-componentes",excerpt:"Ventajas de los arneses en testing de componentes compuestos.",date:"2026-01-16T01:26:23.177Z",updated:"2026-01-16T01:26:23.903Z",tags:["Testing/TDD/BDD/ATDD","UI/UX","Component design"],keywords:["arneses","harness","testing"],type:"default",coverImage:void 0,path:"/src/posts/arneses-testing-componentes.md",html:void 0},{title:"Autonomía y ajenidad (parte 1)",slug:"autonomia-ajenidad-1",coverImage:"starfish.jpg",coverPosition:"normal",coverAuthor:"Pedro Lastra",excerpt:"El trabajador autónomo no existe y el trabajo no es un orgullo.",date:"2024-08-24T13:06:23.177Z",updated:"2024-08-24T13:06:23.903Z",hidden:false,tags:["Personal","Laboral","Software libre"],keywords:["trabajo","autónomo"],type:"default",path:"/src/posts/autonomia-ajenidad-1.md",html:void 0},{title:"🔴 Caso de la suite Cosby",slug:"caso-suite-cosby",coverImage:"blizzard.jpg",coverPosition:"normal",coverAuthor:"Annie Nyle",excerpt:"Repaso algunas experiencias con este caso, implicados, nuestra postura y resultados.",date:"2024-10-06T13:00:23.177Z",updated:"2024-10-06T13:00:23.903Z",hidden:false,tags:["Personal","Tooling"],keywords:["Blizzard"],type:"default",fullReload:false,path:"/src/posts/caso-suite-cosby.md",html:void 0}],month:"07",day:"18"}},uses:{params:["slug"]}}],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
